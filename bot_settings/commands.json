@@ -1,0 +1,673 @@
+{
+  "cooldowns": {
+    "classic": 3000,
+    "longer": 7000,
+    "special": 10000
+  },
+  "commands_mods": [
+    {
+      "name": "modules",
+      "aliases": [
+        "module"
+      ],
+      "cooldown": null,
+      "arguments": [
+        "[enable/disable/check] {moduł}",
+        "[list/clearduels/refreshoverlay]",
+        "[timer] {czas w minutach}",
+        "[setplayer] {gra} {nick w grze} *{psn/xbl}"
+      ],
+      "description": "Wyłącza moduły bota",
+      "disabled": []
+    },
+    {
+      "name": "skiptts",
+      "aliases": [
+        null
+      ],
+      "cooldown": null,
+      "arguments": null,
+      "description": "Pomijanie wiadomości głosowych.",
+      "disabled": []
+    },
+    {
+      "name": "giveaway",
+      "aliases": [
+        "gw"
+      ],
+      "cooldown": "longer",
+      "arguments": ["[one/multi] *{kwota}"],
+      "description": "Tworzenie konkursów.",
+      "disabled": []
+    }
+  ],
+  "commands": [
+    {
+      "name": "help",
+      "aliases": [
+        "komendy",
+        "commands",
+        "pomoc"
+      ],
+      "module_name": null,
+      "cooldown": "classic",
+      "arguments": null,
+      "description": "Podaje kilka komend i linka do strony ze wszystkimi.",
+      "disabled": []
+    },
+    {
+      "name": "version",
+      "aliases": [
+        "ver",
+        "ping"
+      ],
+      "module_name": null,
+      "cooldown": "longer",
+      "arguments": null,
+      "description": "Sprawdź czy bot załadował się na kanał.",
+      "disabled": []
+    },
+    {
+      "name": "opluj",
+      "aliases": [
+        null
+      ],
+      "module_name": "opluj",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Pluje na losową osobę z chatu.",
+      "disabled": []
+    },
+    {
+      "name": "kogut",
+      "aliases": [
+        null
+      ],
+      "module_name": "kogut",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Opierdala koguta losowej osobie na chacie.",
+      "disabled": []
+    },
+    {
+      "name": "hug",
+      "aliases": [
+        "przytul"
+      ],
+      "module_name": "przytul",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Przytula podaną osobę.",
+      "disabled": []
+    },
+    {
+      "name": "zaprasza",
+      "aliases": [
+        null
+      ],
+      "module_name": "zaprasza",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Zaproś kogoś na kamerki.",
+      "disabled": []
+    },
+    {
+      "name": "kamerki",
+      "aliases": [
+        null
+      ],
+      "module_name": "kamerki",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Kto z kim siedzi na kamerkach.",
+      "disabled": []
+    },
+    {
+      "name": "kiss",
+      "aliases": [
+        "calus"
+      ],
+      "module_name": "calus",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Całuje randomową, bądź podaną osobę.",
+      "disabled": []
+    },
+    {
+      "name": "yfl",
+      "aliases": [
+        "yflwatchtime"
+      ],
+      "module_name": "yfl",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdza czy ktoś jest widzem YFL.",
+      "disabled": []
+    },
+    {
+      "name": "bungee",
+      "aliases": [
+        "bungeewatchtime"
+      ],
+      "module_name": "bungee",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdza czy ktoś jest widzem Bungee.",
+      "disabled": []
+    },
+    {
+      "name": "ewron",
+      "aliases": [
+        "ewroniarz"
+      ],
+      "module_name": "ewron",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdza czy ktoś jest widzem ewrona (HOPAKI).",
+      "disabled": []
+    },
+    {
+      "name": "grendy",
+      "aliases": [
+        null
+      ],
+      "module_name": "grendy",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdza czy ktoś jest widzem grendiego.",
+      "disabled": []
+    },
+    {
+      "name": "resp",
+      "aliases": [
+        null
+      ],
+      "module_name": "resp",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdza czy ktoś jest z respa.",
+      "disabled": []
+    },
+    {
+      "name": "kto",
+      "aliases": [
+        null
+      ],
+      "module_name": "kto",
+      "cooldown": "longer",
+      "arguments": null,
+      "description": "Pokazuje kto z listy znanych osobistości twitchowych jest na kanale.",
+      "disabled": []
+    },
+    {
+      "name": "ksiezniczki",
+      "aliases": [
+        "topdupeczki",
+        "topsemp"
+      ],
+      "module_name": "ksiezniczki",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Pokazuje top3 streamerki, które ktoś oglądał po watchtimie (min 1h).",
+      "disabled": []
+    },
+    {
+      "name": "ileogladalkobiet",
+      "aliases": [
+        "semp"
+      ],
+      "module_name": "ileogladalkobiet",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Pokazuje ile ktoś oglądał polskie streamerki od 26 lipca.",
+      "disabled": []
+    },
+    {
+      "name": "watchtimeall",
+      "aliases": [
+        "wtall"
+      ],
+      "module_name": "watchtimeall",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sumuje watchtime na wszystkich polskich kanałach od 26 lipca (dane z xayo.pl).",
+      "disabled": []
+    },
+    {
+      "name": "watchtime",
+      "aliases": [
+        "twitchlogger",
+        "xayopl"
+      ],
+      "module_name": "watchtime",
+      "cooldown": "longer",
+      "arguments": ["*{user} *{streamer}"],
+      "description": "Pokazuje ile czasu spędził widz na streamie/kanałach.",
+      "disabled": []
+    },
+    {
+      "name": "ttvtime",
+      "aliases": [
+        "watchtime2"
+      ],
+      "module_name": "ttvtime",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Pokazuje ile czasu spędził widz na streamie/kanałach.",
+      "disabled": []
+    },
+    {
+      "name": "top3",
+      "aliases": [
+        "top3watchtime"
+      ],
+      "module_name": "top3",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Pokazuje top 3 kanały według watchtime.",
+      "disabled": []
+    },
+    {
+      "name": "ilejeszcze",
+      "aliases": [
+        "wruc"
+      ],
+      "module_name": "ilejeszcze",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdza, kiedy kończy się wykluczenie.",
+      "disabled": []
+    },
+    {
+      "name": "missing",
+      "aliases": [
+        "ostatnio",
+        "lastseen",
+        "kiedy"
+      ],
+      "module_name": "missing",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Kiedy ostatnio był widziany user na kanale.",
+      "disabled": []
+    },
+    {
+      "name": "msgs",
+      "aliases": [
+        "messages",
+        "wiadomosci"
+      ],
+      "module_name": "msgs",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Ilość wiadomości i miejsce w topce.",
+      "disabled": []
+    },
+    {
+      "name": "topmsgs",
+      "aliases": [
+        "top5msgs"
+      ],
+      "module_name": "topmsgs",
+      "cooldown": "classic",
+      "arguments": null,
+      "description": "Pokazuje top 5 osób.",
+      "disabled": []
+    },
+    {
+      "name": "wiek",
+      "aliases": [
+        "ilemamlat"
+      ],
+      "module_name": "wiek",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Zgaduje wiek na podstawie daty zalozenia konta, liczb w nicku i oglądanych kanałów.",
+      "disabled": []
+    },
+    {
+      "name": "pogoda",
+      "aliases": [
+        "weather"
+      ],
+      "module_name": "pogoda",
+      "cooldown": "longer",
+      "arguments": ["{miasto}"],
+      "description": "Pokazuje jaka pogoda jest w danym mieście.",
+      "disabled": []
+    },
+    {
+      "name": "points",
+      "aliases": [
+        "punkty",
+        "yflpoints"
+      ],
+      "module_name": "points",
+      "cooldown": "classic",
+      "arguments": [
+        "*{user}",
+        "ranking",
+        "send {user} {kwota}"
+      ],
+      "description": "Pokazuje liczbe punktów oraz pozwala zrobić transfer punktów.",
+      "disabled": []
+    },
+    {
+      "name": "chatters",
+      "aliases": [
+        null
+      ],
+      "module_name": "chatters",
+      "cooldown": "classic",
+      "arguments": null,
+      "description": "Pokazuje aktualną liczbę chattersów.",
+      "disabled": []
+    },
+    {
+      "name": "zjeb",
+      "aliases": [
+        "blacklist"
+      ],
+      "module_name": "zjeb",
+      "cooldown": "classic",
+      "arguments": [
+        "*{nick}", 
+        "[mark/unmark] {nick}"
+      ],
+      "description": "Sprawdź czy ktoś został zarejestrowany jako zjeb lub zarejestruj go.",
+      "disabled": []
+    },
+    {
+      "name": "fivem",
+      "aliases": [
+        "5city",
+        "notrp",
+        "cocorp",
+        "gangrp"
+      ],
+      "module_name": "fivem",
+      "cooldown": "special",
+      "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp]"],
+      "description": "Sprawdza ile osób jest na danym serwerze FiveM.",
+      "disabled": []
+    },
+    {
+      "name": "aod",
+      "aliases": [
+        null
+      ],
+      "module_name": "aod",
+      "cooldown": "special",
+      "arguments": ["[5city/cocorp/notrp/77rp/gangrp]"],
+      "description": "Sprawdza kto z AOD jest na danym serwerze.",
+      "disabled": []
+    },
+    {
+      "name": "27st",
+      "aliases": [
+        "27",
+        "27street"
+      ],
+      "module_name": "27st",
+      "cooldown": "special",
+      "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp/full]"],
+      "description": "Sprawdza kto z 27street jest na danym serwerze",
+      "disabled": []
+    },
+    {
+      "name": "permy",
+      "aliases": [
+        "perm",
+        "perms"
+      ],
+      "module_name": "permy",
+      "cooldown": "classic",
+      "arguments": ["*{channel}"],
+      "description": "Sprawdź ile osób dostało dzisiaj perma.",
+      "disabled": []
+    },
+    {
+      "name": "timeouty",
+      "aliases": [
+        "timeouts",
+        "to"
+      ],
+      "module_name": "timeouty",
+      "cooldown": "classic",
+      "arguments": ["*{channel}"],
+      "description": "Sprawdź ile osób dostało dzisiaj timeouta.",
+      "disabled": []
+    },
+    {
+      "name": "tiktok",
+      "aliases": [
+        "redeem"
+      ],
+      "module_name": "tiktok",
+      "cooldown": "longer",
+      "arguments": ["[Rose/Coffee/Koniczynka/Kiss/Szampan/Diamonds/Duck/Dice/Lean/Ziolo] {liczba}"],
+      "description": "Wysyłaj różyczki i inne ikony z tiktoka na overlay streamera.",
+      "disabled": []
+    },
+    {
+      "name": "daily",
+      "aliases": [
+        null
+      ],
+      "module_name": "daily",
+      "cooldown": "classic",
+      "arguments": ["{free/premium/sub}"],
+      "description": "Odbieraj codziennie dodatkowe punkty.",
+      "disabled": []
+    },
+    {
+      "name": "dice",
+      "aliases": [
+        "kosci"
+      ],
+      "module_name": "dice",
+      "cooldown": "longer",
+      "arguments": ["{kwota}"],
+      "description": "Rzuć kostkami o punkty.",
+      "disabled": []
+    },
+    {
+      "name": "gamble",
+      "aliases": [
+        "roulette",
+        "ruletka"
+      ],
+      "module_name": "ruletka",
+      "cooldown": "longer",
+      "arguments": ["[red/black/green/blue/orange] {kwota}"],
+      "description": "Postaw na kolor który wyleci.",
+      "disabled": []
+    },
+    {
+      "name": "case",
+      "aliases": [
+        "skrzynka",
+        "skrzynia",
+        "crate"
+      ],
+      "module_name": "case",
+      "cooldown": "longer",
+      "arguments": [
+        "[snake/nightmare/riptide/cobble/huntsman/chall14/legend14]",
+        "[chance/info] {snake/nightmare/riptide/cobble/huntsman/chall14/legend14}"
+      ],
+      "description": "Otwieranie skrzynek.",
+      "disabled": []
+    },
+    {
+      "name": "duel",
+      "aliases": [
+        "pojedynek"
+      ],
+      "module_name": "duel",
+      "cooldown": "longer",
+      "arguments": [
+        "{user} {kwota}",
+        "list"
+      ],
+      "description": "Zaproś na pojedynek o punkty.",
+      "disabled": []
+    },
+    {
+      "name": "exchange",
+      "aliases": [
+        "rechange",
+        "pln",
+        "kurs"
+      ],
+      "module_name": "exchange",
+      "cooldown": "classic",
+      "arguments": ["{liczba} {waluta}"],
+      "description": "Przeliczarka pieniędzy na złotówki",
+      "disabled": []
+    },
+    {
+      "name": "marry",
+      "aliases": [
+        "slub",
+        "merry"
+      ],
+      "module_name": "marry",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Kiedy będzie ślub z user.",
+      "disabled": []
+    },
+    {
+      "name": "love",
+      "aliases": [
+        null
+      ],
+      "module_name": "love",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Sprawdza, jak bardzo kochasz osobę.",
+      "disabled": []
+    },
+    {
+      "name": "tts",
+      "aliases": [
+        "playtts"
+      ],
+      "module_name": "tts",
+      "cooldown": null,
+      "arguments": ["{wiadomość}"],
+      "description": "Wysyłanie wiadomości głosowych",
+      "disabled": []
+    },
+    {
+      "name": "ekwipunek",
+      "aliases": [
+        "eq",
+        "inventory",
+        "inv"
+      ],
+      "module_name": "inventory",
+      "cooldown": "classic",
+      "arguments": [
+        "*{user}",
+        "sell {id/all}",
+        "trade {user} {id}"
+      ],
+      "description": "Pokazuje co udało Ci się zdobyć oraz pozwala sprzedać itemy.",
+      "disabled": []
+    },
+    {
+      "name": "raids",
+      "aliases": [
+        "rajdy"
+      ],
+      "module_name": "raids",
+      "cooldown": "classic",
+      "arguments": ["*{streamer}"],
+      "description": "Pokazuje ile rajdów dostał dzisiaj kanał.",
+      "disabled": []
+    },
+    {
+      "name": "lastraid",
+      "aliases": [
+        "latestraid",
+        "ostatniraid"
+      ],
+      "module_name": "lastraid",
+      "cooldown": "classic",
+      "arguments": ["*{streamer}"],
+      "description": "Pokazuje kiedy był ostatni rajd, z jaką liczbą osób oraz od kogo.",
+      "disabled": []
+    },
+    {
+      "name": "try",
+      "aliases": [
+        null
+      ],
+      "module_name": "try",
+      "cooldown": "special",
+      "arguments": ["{wiadomość}"],
+      "description": "Naśladuje Try z serwera fivecity.",
+      "disabled": []
+    },
+    {
+      "name": "voteban",
+      "aliases": [null],
+      "module_name": "voteban",
+      "cooldown": "classic",
+      "arguments": ["{user}"],
+      "description": "Rozpocznij głosowanie na timeouta za punkty.",
+      "disabled": []
+    },
+    {
+      "name": "mma",
+      "aliases": [
+        "bitka"
+      ],
+      "module_name": "mma",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Bije się z randomową, bądź podaną osobą.",
+      "disabled": []
+    },
+    {
+      "name": "fishing",
+      "aliases": [
+        "lowienie",
+        "fish"
+      ],
+      "module_name": "fishing",
+      "cooldown": "longer",
+      "arguments": [
+        "rod {buy/upgrade}",
+        "pass {30m/1h/2h}",
+        "info"
+      ],
+      "description": "Jesteś pasjonatem ryb? Chcesz sobie połowić? Droga wolna kup karnet, wędke i baw się z nami.",
+      "disabled": []
+    },
+    {
+      "name": "fortnite",
+      "aliases": [
+        "fn"
+      ],
+      "module_name": "fortnite",
+      "cooldown": "longer",
+      "arguments": ["[solo/duo/trio/squad] *{user}"],
+      "description": "Sprawdź statystyki swoje lub streamer w fortnite.",
+      "disabled": []
+    },
+    {
+      "name": "faceit",
+      "aliases": [
+        "elo"
+      ],
+      "module_name": "faceit",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdź statystyki swoje lub streamera z FACEIT",
+      "disabled": []
+    }
+  ]
+}
