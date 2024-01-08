@@ -459,5 +459,530 @@
             "skins": []
         },
         "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/weapon_cases/crate_sticker_pack_kat2014_02.71f2e9a0cb0e3f5ffea795f381058ecb84152d80.png"
+    },
+    "agent": {
+        "name": "Agent Case",
+        "cost": 584,
+        "white": {
+            "from": 0,
+            "to": 57.47,
+            "skins": [
+                {"name": "Soldier | Phoenix", "price": "131", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_phoenix_varianth.a632cd3d21411398514f6724ce7575367b1b4001.png"},
+                {"name": "Ground Rebel  | Elite Crew", "price": "214", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_leet_variantg.b276430339e3bb9547c3465aec5f58e40e94b122.png"},
+                {"name": "Seal Team 6 Soldier | NSWC SEAL", "price": "470", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_st6_variante.355f37cac2c7e25a16541eddfbca126f872ec39b.png"},
+                {"name": "B Squadron Officer | SAS", "price": "325", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_sas_variantf.6a6c9f284f805d44062313762287025c5c91e9aa.png"},
+                {"name": "Operator | FBI SWAT", "price": "362", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_fbi_variantf.214287ae5d73c4b98e3584dff7ecb5eeca6f7061.png"},
+                {"name": "Dragomir | Sabre Footsoldier", "price": "289", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_balkan_variantl.fd91648b6bda8bd1ffb2c1ba44e910cbeaf6e37e.png"},
+                {"name": "Enforcer | Phoenix", "price": "143", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_phoenix_variantf.dd156306a82555f744ec688a06e8dd788daeaced.png"},
+                {"name": "Street Soldier | Phoenix", "price": "483", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_phoenix_varianti.592ed5740d844d6af82da5d07576391295b3323a.png"},
+                {"name": "3rd Commando Company | KSK", "price": "553", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_st6_variantk.11e7ee3ab4490c64a086eab1a062e5a23abbe9ff.png"},
+                {"name": "Bio-Haz Specialist | SWAT", "price": "472", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_swat_varianth.b4cffbe2629de2e5840f8833a1d5aaadfef09283.png"},
+                {"name": "Chem-Haz Specialist | SWAT", "price": "485", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_swat_variantj.676d63bbfa8e0c5ec4cb0b1b7a223356f05c4faf.png"}
+            ]
+        },
+        "blue": {
+            "from": 57.48,
+            "to": 80.50,
+            "skins": [
+                {"name": "Osiris | Elite Crew", "price": "213", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_leet_varianth.6f559afcf5e60f1bc2b3d9836dd89e4864a9585c.png"},
+                {"name": "Buckshot | NSWC SEAL", "price": "260", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_st6_variantg.66095cb33f0ad8049c34c7af80c93770e7367242.png"},
+                {"name": "Dragomir | Sabre", "price": "187", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_balkan_variantf.74c825883b21f913d71314d2dab7b1155853dd82.png"},
+                {"name": "Maximus | Sabre", "price": "174", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_balkan_varianti.60acc61789c103bd81eba50498da3c9804977618.png"},
+                {"name": "Slingshot | Phoenix", "price": "224", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_phoenix_variantg.bf0d41b8e80fc227b23a576db872f170000788a6.png"},
+                {"name": "Markus Delrow | FBI HRT", "price": "263", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_fbi_variantg.293297c5e9a62b72967f827b0d110560314ecfab.png"},
+                {"name": "'Blueberries' Buckshot | NSWC SEAL", "price": "698", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_st6_variantj.3c18cd72acf110c25116e79bde452cff0bd9b65d.png"},
+                {"name": "Sergeant Bombson | SWAT", "price": "473", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_swat_varianti.dd87f52c5ecaff1d8aa96cca70ead42f9cfd3e7e.png"},
+                {"name": "John 'Van Healen' Kask | SWAT", "price": "393", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_swat_variantg.83e6e8ec495455a877e5951e485ebd63e7842c67.png"},
+                {"name": "Little Kev | The Professionals", "price": "1242", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varh.4e07f94a4154f5f4043a24d46f477f58c9a2e584.png"},
+                {"name": "Getaway Sally | The Professionals", "price": "3275", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varj.d62719720e21b91ff7a92e8d610e6f5074f4f4cf.png"}
+            ]
+        },
+        "purple": {
+            "from": 80.51,
+            "to": 92.79,
+            "skins": [
+                {"name": "Prof. Shahmat | Elite Crew", "price": "206", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_leet_varianti.a7ae500158e177c6b0aa6d3ae59dfdb1a5a4f0f8.png"},
+                {"name": "Michael Syfers  | FBI Sniper", "price": "294", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_fbi_varianth.8831d91cf291c57e8dfaefd38d9e22f0a458a298.png"},
+                {"name": "'Two Times' McCoy | USAF TACP", "price": "277", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_st6_variantm.dbd362bbf0c8b10715b8051b836f48142325c82f.png"},
+                {"name": "'Two Times' McCoy | TACP Cavalry", "price": "283", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_st6_variantl.2ac01794a0d73bfe4868d32af41c531fc259dbfa.png"},
+                {"name": "Rezan the Redshirt | Sabre", "price": "285", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_balkan_variantk.257a1ba0142799887e287b90f12dbbffcac4878a.png"},
+                {"name": "Safecracker Voltzmann | The Professionals", "price": "882", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varg.75b9d6673b5ce645a689aaa53f8000326fa47156.png"},
+                {"name": "1st Lieutenant Farlow | SWAT", "price": "427", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_swat_variantf.842ec2ac84c979a11eb8208de9adaf3a74248787.png"},
+                {"name": "Blackwolf | Sabre", "price": "296", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_balkan_variantj.fa3101370646fa9338f9a315939c76097eaa23a4.png"},
+                {"name": "Rezan The Ready | Sabre", "price": "281", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_balkan_variantg.8f857edd878bf7e878b791994071ff31935d18d2.png"}
+            ]
+        },
+        "red": {
+            "from": 92.80,
+            "to": 100.00,
+            "skins": [
+                {"name": "Number K | The Professionals", "price": "2817", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_vari.7986c97699dc8c72a334f961a4071b4292e3f482.png"},
+                {"name": "The Elite Mr. Muhlik | Elite Crew", "price": "361", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_leet_variantf.fcc6fba8c4c813cfb9a4aabcef313f46d1a31c92.png"},
+                {"name": "Lt. Commander Ricksaw | NSWC SEAL", "price": "693", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_st6_varianti.98fc97f23d73353b246fd4263e652a91a1b68f9d.png"},
+                {"name": "'The Doctor' Romanov | Sabre", "price": "522", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_balkan_varianth.8d16a8253cb80f8ade812f5454a8991e5aab68c3.png"},
+                {"name": "Special Agent Ava | FBI", "price": "1060", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_fbi_variantb.9cb40f29278782da1be6eecec5c95d07a74df91c.png"},
+                {"name": "Sir Bloody Silent Darryl | The Professionals", "price": "1331", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varf1.17ff15e28772c2c93a2ea90fc0f2fa6ee3b8bd50.png"},
+                {"name": "Sir Bloody Loudmouth Darryl | The Professionals", "price": "2647", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varf4.f3e13e05bd26941f22cb92cfa81b01a5e618639a.png"},
+                {"name": "Sir Bloody Miami Darryl | The Professionals", "price": "4680", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varf.2b97106a469e226aa8b4a815a4072356f49a7fef.png"},
+                {"name": "Sir Bloody Skullhead Darryl | The Professionals", "price": "1656", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varf2.8a18897fabcef470243a5d229ded42911a8272f5.png"},
+                {"name": "Sir Bloody Darryl Royale | The Professionals", "price": "1937", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_tm_professional_varf3.68e2ce3e71df780d7189f62b2c613633d1afeb28.png"},
+                {"name": "Cmdr. Mae 'Dead Cold' Jamison | SWAT", "price": "636", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/characters/customplayer_ctm_swat_variante.02681dc883960ff22bd64ce806670b30e565ea6f.png"}
+            ]
+        },
+        "gold": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "image": "https://public.ttvu.link/cases/Agent.png"
+    },
+    "dream": {
+        "name": "Dream Case",
+        "cost": 265985,
+        "white": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "blue": {
+            "from": 0,
+            "to": 70.54,
+            "skins": [
+                {"name": "Desert Eagle | Eagle Disruption", "price": "6573", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_ddpatdense_peacock_light_large.a486db3160bcdcf6bc5a1d8179c450b02f620151.png"},
+                {"name": "Desert Eagle | Hypnotic", "price": "8627", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_vertigo_light_large.85a16e4bfb8b1cc6393ca5d0c6d3a1e6e6023323.png"},
+                {"name": "AWP | Silk Tiger", "price": "22802", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_tigers_blue_light_large.4346995a5382cb8e6ba636335f3f4e94998a447f.png"},
+                {"name": "AWP | Graphite", "price": "13575", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_crumple_bravo_light_large.5f59de227d280f3c3b39fae7e49ac143338ca5b2.png"},
+                {"name": "Desert Eagle | Golden Koi", "price": "7394", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_scales_bravo_light_large.6cba46695e74a8bee932ea90cea24e146cbef5e7.png"},
+                {"name": "Desert Eagle | Printstream", "price": "7497", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_cu_deag_printstream_light_large.b468e56607da39fb2c88e493456290fd5db174c8.png"},
+                {"name": "AWP | Asiimov", "price": "10839", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_asimov_light_large.32d9045f8a2bcd13ca18390cc9fd82026e7195ab.png"},
+                {"name": "AK-47 | Bloodsport", "price": "10049", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_bloodsport_light_large.40f076f6b92e08acc37860923533aa9768795b2b.png"},
+                {"name": "M4A4 | Asiimov", "price": "12140", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4_asimov_light_large.af03179f3d43ff55b0c3d114c537eac77abdb6cf.png"},
+                {"name": "M4A1-S | Printstream", "price": "37064", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_printstream_light_large.99e340c2eed00b54eef5320fd63e009fcede6cae.png"}
+            ]
+        },
+        "purple": {
+            "from": 70.55,
+            "to": 91.54,
+            "skins": [
+                {"name": "Desert Eagle | Blaze", "price": "53670", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_flames_light_large.dd140c3b359c16ccd8e918ca6ad0b2628151fe1c.png"},
+                {"name": "Desert Eagle | Emerald Jörmungandr", "price": "25138", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_jorm_green_light_large.db1045fee0af23f28bb4affd164d07e3aadd42ec.png"},
+                {"name": "Desert Eagle | Sunset Storm 弐", "price": "22107", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_seastorm_shojo_light_large.7df4fe386dac18ae2a8c3e50df7dfb9165dece83.png"}
+            ]
+        },
+        "red": {
+            "from": 91.55,
+            "to": 99.60,
+            "skins": [
+                {"name": "Glock-18 | Fade", "price": "138800", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_aa_fade_light_large.61edcc69ff252d537a4dd14b016cbe826c26ae5b.png"},
+                {"name": "AK-47 | Gold Arabesque", "price": "377000", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_gold_arabesque_light_large.0d1b0b2bfcafe8d214837077367e7dd42394822e.png"},
+                {"name": "AK-47 | Fire Serpent", "price": "201300", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_fireserpent_ak47_bravo_light_large.9390e7fd091ea8a0434fd2143e0acf0d5d1bbc97.png"},
+                {"name": "AK-47 | X-Ray", "price": "155900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_xray_light_large.a16215bb471dac8cc257c13dbc03e24514a7f018.png"},
+                {"name": "M4A1-S | Imminent Danger", "price": "170500", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_vertigo_light_large.a144750a6903c3bdd9808e740d274648ae26c71e.png"},
+                {"name": "AWP | Lightning Strike", "price": "51163", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_lightning_awp_light_large.3761894103ee0fec90af459928635933ba27e36d.png"},
+                {"name": "AWP | Desert Hydra", "price": "240500", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_hydra_light_large.a69be92dd5f9eef4d88b9c640f3dbf15d8c8f78c.png"},
+                {"name": "AK-47 | Hydroponic", "price": "206000", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_am_bamboo_jungle_light_large.98cd023e9d2207ad765b600b281352cbc5009051.png"},
+                {"name": "AWP | Medusa", "price": "496000", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_medusa_awp_light_large.05c6f5c67a2fbf7d042637568ba2ab25e44bb08c.png"}
+            ]
+        },
+        "gold": {
+            "from": 99.61,
+            "to": 100.00,
+            "skins": [
+                {"name": "AK-47 | Wild Lotus", "price": "1099300", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_island_floral_light_large.1303e76d0a77ab164a46a7aba5ab1dcaf1acee6b.png"},
+                {"name": "★ Broken Fang Gloves | Jade", "price": "85026", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/studded_brokenfang_gloves_operation10_metalic_green_light_large.80a800c0b681384b0227d4125cd21c4e4df0469c.png"},
+                {"name": "★ Moto Gloves | Turtle", "price": "81928", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/motorcycle_gloves_motorcycle_basic_green_orange_light_large.3e58353974e92bb56f218bb93b4fa77b0639e498.png"},
+                {"name": "★ Sport Gloves | Superconductor", "price": "1330800", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/sporty_gloves_sporty_light_blue_light_large.ad70bb6b45be4dd9fefb19dea2819fba270b7022.png"},
+                {"name": "★ Sport Gloves | Vice", "price": "1659100", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/sporty_gloves_sporty_blue_pink_light_large.0da7dccfde04268a4289ad4b6c00a23a124a624e.png"},
+                {"name": "★ Flip Knife | Marble Fade", "price": "46284", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_flip_am_marble_fade_light_large.57a993ab6632bab742dc96e8ebedf98473fa5b48.png"},
+                {"name": "★ M9 Bayonet | Case Hardened", "price": "109300", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_m9_bayonet_aq_oiled_light_large.75bfecf8e9073c05ba21251889b8d49889f90669.png"},
+                {"name": "M4A1-S | Knight", "price": "259200", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_am_metals_light_large.1ef1155c712349b2aaee8172a3da7fb1e62e1362.png"},
+                {"name": "★ Karambit | Lore", "price": "195100", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_karambit_cu_karam_lore_light_large.7090aea57b3a2abd82e09f0cdb840ac72f41df73.png"},
+                {"name": "M4A4 | Howl", "price": "573100", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a1_howling_light_large.c64a9fc9fa04b5d10d4b1e200135e59285c8a77c.png"},
+                {"name": "★ Butterfly Knife | Fade", "price": "299900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_butterfly_aa_fade_light_large.b1ab5fb3ed08185a266334b6488a364bb3f220f8.png"},
+                {"name": "AWP | Dragon Lore", "price": "1138400", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_medieval_dragon_awp_light_large.cb3b8168e59e96fd33efa9578206a2aaed036fc0.png"},
+                {"name": "★ M9 Bayonet | Autotronic", "price": "157400", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_m9_bayonet_gs_m9_bay_autotronic_light_large.f81f68f78b0b40717602fc88f62b4d7af346c430.png"}
+            ]
+        },
+        "image": "https://public.ttvu.link/cases/Dream.png"
+    },
+    "stalker": {
+        "name": "Stalker Case",
+        "cost": 5014,
+        "white": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "blue": {
+            "from": 0,
+            "to": 77.94,
+            "skins": [
+                {"name": "USP-S | Cyrex", "price": "257", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_cyrex_light_large.caef5e9fa7e19c3a4fd6f135d7ae122459b348d0.png"},
+                {"name": "AK-47 | Orbit Mk01", "price": "1648", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak_colony01_red_light_large.b688da7615b6e76fa34f775e200914dc44d5336c.png"},
+                {"name": "Desert Eagle | Conspiracy", "price": "694", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_cu_deagle_aureus_light_large.7fa76057cb05f2cab829be448f120ae540715d0e.png"},
+                {"name": "FAMAS | Commemoration", "price": "1584", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_gs_famas_legacy_gold_light_large.34013884c12276d1c83ceb4ea9fb83428df02920.png"},
+                {"name": "AK-47 | Phantom Disruptor", "price": "807", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak-47_phantom_disruptor_light_large.c14fcebe17a4c1a509edc597b33dcb9b5dcda32b.png"},
+                {"name": "AWP | Neo-Noir", "price": "2713", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_neonoir_light_large.c5dd57f8555d13c41f08024f27a9314074b698af.png"}
+            ]
+        },
+        "purple": {
+            "from": 77.95,
+            "to": 94.05,
+            "skins": [
+                {"name": "M4A1-S  | Decimator", "price": "2935", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_decimator_light_large.5af82e99273fcc0a4ad35b2971b63787ee989d6a.png"},
+                {"name": "USP-S | Caiman", "price": "4863", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_kaiman_light_large.8ed168478e306bd382a90afb1b71ad9f7551b342.png"},
+                {"name": "USP-S | Orion", "price": "4880", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_spitfire_light_large.883b877a8a57c9dd1128f2550ddd694d959f3150.png"},
+                {"name": "Glock-18 | Synth Leaf", "price": "23659", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_hy_leaf_blue_light_large.1b017cc8d4594d924537f9928db4253ff628284c.png"},
+                {"name": "SSG 08 | Bloodshot", "price": "3985", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_tickler_light_large.b6a73afa62f8983211740a1570410df4864f45f6.png"},
+                {"name": "M4A4 | Desolate Space", "price": "1893", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_desolate_space_light_large.1fcbd5e124ae7c54cf12e6f76c431e6671a73845.png"},
+                {"name": "SG 553 | Colony IV", "price": "3105", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_sg553_reactor_light_large.af5c07d2528198641adf32cf3498aa7d2823b048.png"},
+                {"name": "MAC-10 | Stalker", "price": "5011", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_gs_mac10_stalker_light_large.cb4d7a60a69978f1575526f979be8e1e1538a673.png"},
+                {"name": "AWP | Pink DDPAT", "price": "10883", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_hy_ddpat_pink_light_large.a00bebead467a7106062058982a1f8651cf663bc.png"},
+                {"name": "AK-47 | Redline", "price": "6565", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_cobra_light_large.7494bfdf4855fd4e6a2dbd983ed0a243c80ef830.png"}
+            ]
+        },
+        "red": {
+            "from": 94.06,
+            "to": 100,
+            "skins": [
+                {"name": "AK-47 | Red Laminate", "price": "42408", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_hy_ak47lam_light_large.199620e808579639264cf753d0650721b4bc1f37.png"},
+                {"name": "P90 | Astral Jörmungandr", "price": "26282", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_am_jorm_blue_light_large.4d15121e1a295202b46b7452b0a927c009cebb37.png"},
+                {"name": "Desert Eagle | Emerald Jörmungandr", "price": "25138", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_am_jorm_green_light_large.db1045fee0af23f28bb4affd164d07e3aadd42ec.png"},
+                {"name": "AWP | Man-o'-war", "price": "2787", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_awp_glory_light_large.348eae0f5d4da8671886826648dd4197a9829090.png"},
+                {"name": "AK-47 | Neon Rider", "price": "11002", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_neon_rider_light_large.9209192b514c4ec98146b4747dec8ce407a977c8.png"},
+                {"name": "AWP | Wildfire", "price": "11519", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_wildfire_light_large.61e36b12eb45a39836cdb5badb5a536737684861.png"},
+                {"name": "Desert Eagle | Code Red", "price": "5900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_gs_deagle_aggressor_light_large.51ffb87f03ae0d3c467d4412f3c246067748e61d.png"},
+                {"name": "Glock-18 | Bullet Queen", "price": "3933", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock18_warmaiden_light_large.d99a6fdb4c1469d164182a74edba8de055726aa5.png"},
+                {"name": "M4A4 | The Emperor", "price": "11970", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_emperor_light_large.61be48559b0a5d57e04108f876f5cf755ec8acc8.png"},
+                {"name": "AWP | Containment Breach", "price": "32384", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_virus_light_large.00307f818d425d94cb8e4eeda1e27699f713fb45.png"},
+                {"name": "USP-S | Kill Confirmed", "price": "14417", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_kill_confirmed_light_large.a3a7b8f19c9fb931b18c1edd7dd21d44e2c3c2e0.png"},
+                {"name": "AK-47 | Asiimov", "price": "17597", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_large.665fc3b83c8046398787a57d2ef7a9d938244820.png"}
+            ]
+        },
+        "gold": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "image": "https://public.ttvu.link/cases/Stalker.png"
+    },
+    "vulcan": {
+        "name": "Vulcan Case",
+        "cost": 7397,
+        "white": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "blue": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "purple": {
+            "from": 0,
+            "to": 82.22,
+            "skins": [
+                {"name": "Five-SeveN | Case Hardened", "price": "1922", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_aq_oiled_light_large.fdaa095453965b2be93f8aa90ae469d926fac4e7.png"},
+                {"name": "AK-47 | Point Disarray", "price": "2026", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_point_disarray_light_large.ba0f6ccdcb917aa2bde2ef0312c57d763a61d341.png"},
+                {"name": "M4A4 | Desolate Space", "price": "1893", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_desolate_space_light_large.1fcbd5e124ae7c54cf12e6f76c431e6671a73845.png"},
+                {"name": "AWP | Electric Hive", "price": "5039", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_hy_hive_light_large.2189958e2afa2c69cfcdd807124c279a0e645625.png"},
+                {"name": "M4A1-S | Atomic Alloy", "price": "6269", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_am_m4a1-s_alloy_orange_light_large.82bd272d0256f17eb86029a8d1411c4e5bf2bc9c.png"},
+                {"name": "Desert Eagle | Hypnotic", "price": "8828", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_vertigo_light_large.85a16e4bfb8b1cc6393ca5d0c6d3a1e6e6023323.png"},
+                {"name": "AK-47 | Redline", "price": "6565", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_cobra_light_large.7494bfdf4855fd4e6a2dbd983ed0a243c80ef830.png"},
+                {"name": "AWP | Graphite", "price": "13575", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_crumple_bravo_light_large.5f59de227d280f3c3b39fae7e49ac143338ca5b2.png"}
+            ]
+        },
+        "red": {
+            "from": 82.23,
+            "to": 94.70,
+            "skins": [
+                {"name": "Desert Eagle | Blaze", "price": "53670", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_flames_light_large.dd140c3b359c16ccd8e918ca6ad0b2628151fe1c.png"},
+                {"name": "Glock-18 | Wasteland Rebel", "price": "474", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_wasteland_rebel_light_large.284899ab35e5a29c6edb64b2af194cee19a0ed89.png"},
+                {"name": "SSG 08 | Dragonfire", "price": "1700", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_dragonfire_scope_light_large.482858c9d088454b42e53f02d927a8203c69dfc2.png"},
+                {"name": "M4A4 | X-Ray", "price": "1479", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_xray_m4_light_large.e929bb3998df4902c2bd6f6fbb775cec071558ba.png"},
+                {"name": "M4A4 | Buzz Kill", "price": "2551", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_gs_m4a4_sector_light_large.43ec111ef558f74c49e31621d455f93ba414714e.png"},
+                {"name": "M4A1-S | Cyrex", "price": "2736", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_cyrex_light_large.144b4053eb73b4a47f8128ebb0e808d8e28f5b9c.png"},
+                {"name": "P2000 | Fire Elemental", "price": "2780", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_cu_p2000_fire_elemental_light_large.1e57d4d9f1c51e613c1923377aa55fab4b0ab1bc.png"},
+                {"name": "AK-47 | Neon Revolution", "price": "4828", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_anarchy_light_large.6e98f0c6fcb81aaeca03c56eed68962f50c9ef94.png"},
+                {"name": "USP-S | Kill Confirmed", "price": "14417", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_kill_confirmed_light_large.a3a7b8f19c9fb931b18c1edd7dd21d44e2c3c2e0.png"},
+                {"name": "AWP | Wildfire", "price": "11519", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_wildfire_light_large.61e36b12eb45a39836cdb5badb5a536737684861.png"},
+                {"name": "AK-47 | The Empress", "price": "10987", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_empress_light_large.f81d0b07dca381635c89f74bcdb6b64a6da6e81c.png"},
+                {"name": "AK-47 | Bloodsport", "price": "10617", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_bloodsport_light_large.40f076f6b92e08acc37860923533aa9768795b2b.png"},
+                {"name": "USP-S | Neo-Noir", "price": "3179", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usps_noir_light_large.ed0f4245c1b9031c6d410300ce6de1f1efb75481.png"},
+                {"name": "AK-47 | Jaguar", "price": "14787", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_panther_ak47_light_large.6b7c82083b5fbb71631ad7961ac1543d1fc2a5cd.png"}
+            ]
+        },
+        "gold": {
+            "from": 94.71,
+            "to": 100.00,
+            "skins": [
+                {"name": "AK-47 | Vulcan", "price": "70135", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_rubber_light_large.5836c38d3037a5a1f90ffdc8c9d0b94367ca8efd.png"},
+                {"name": "★ Navaja Knife | Blue Steel", "price": "11145", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_gypsy_jackknife_aq_blued_light_large.1ce2d4556d50d1c13ca50c65a9a68f9e943ab147.png"},
+                {"name": "★ Flip Knife | Gamma Doppler", "price": "63880", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_flip_am_gamma_doppler_phase1_light_large.7bf92c117841e553340bc5c0d0266cb458b92249.png"},
+                {"name": "★ Bayonet | Slaughter", "price": "57655", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bayonet_am_zebra_light_large.2234064362204e87ea5ce3f997dc691d844d9168.png"}
+            ]
+        },
+        "image": "https://public.ttvu.link/cases/Vulcan.png"
+    },
+    "buckshot": {
+        "name": "Buckshot Case",
+        "cost": 6324,
+        "white": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "blue": {
+            "from": 0,
+            "to": 59.36,
+            "skins": [
+                {"name": "AK-47 | Uncharted", "price": "81", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_aztec_light_large.368d90ba7bc01aa56489792a8962df5343238c5c.png"},
+                {"name": "M4A1-S | Dark Water", "price": "5836", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_am_zebra_dark_light_large.f484368a478f5e02d1b9d5e2816354fe705503f3.png"},
+                {"name": "M4A1-S | Flashback", "price": "229", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_flashback_light_large.5e6c2d582d33006425b61dc0e0e8c28ecda9f853.png"},
+                {"name": "Five-SeveN | Copper Galaxy", "price": "830", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_am_copper_flecks_light_large.d2af814b76763880470bc7039d5569eb74b26978.png"},
+                {"name": "USP-S | Cyrex", "price": "257", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_cyrex_light_large.caef5e9fa7e19c3a4fd6f135d7ae122459b348d0.png"},
+                {"name": "AWP | Worm God", "price": "210", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_aq_awp_twine_light_large.f976c41b8f978d2b8d13734f14f6586982d859f1.png"},
+                {"name": "Desert Eagle | Naga", "price": "473", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aq_deagle_naga_light_large.b410ad835b1894a448676ae0590586298af2cb33.png"},
+                {"name": "AWP | Mortis", "price": "498", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_death_light_large.19bdee04e6a0b4a3b8f832fd8ea18fea1e558f2e.png"},
+                {"name": "R8 Revolver | Llama Cannon", "price": "834", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_revolver_gs_r8_llamacannon_light_large.ae4ce84764b4892a2ea2d3f9f0afc57023f7bdc8.png"},
+                {"name": "AK-47 | Phantom Disruptor", "price": "813", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak-47_phantom_disruptor_light_large.c14fcebe17a4c1a509edc597b33dcb9b5dcda32b.png"}
+            ]
+        },
+        "purple": {
+            "from": 59.37,
+            "to": 81.90,
+            "skins": [
+                {"name": "P250 | Cartel", "price": "1190", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_aq_p250_cartel_light_large.d63ea117934ac8f9a40afe027fa4a1438dbb1777.png"},
+                {"name": "MP7 | Skulls", "price": "1640", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_hy_skulls_light_large.3e38912bdbea8a2b03b149e619f9f141e54facfd.png"},
+                {"name": "MAC-10 | Amber Fade", "price": "1444", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_aa_fade_metallic_light_large.1af4a93ef5fee1f1510d364f54d1a730474860ef.png"},
+                {"name": "Glock-18 | Reactor", "price": "998", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_am_nuclear_pattern1_glock_light_large.01e91d2930e04d43215becb90447b2ebec1cb8d9.png"},
+                {"name": "SG 553 | Traveler", "price": "1405", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sg556_cu_luggage_sg553_light_large.374b9493843853afc913a1735b154fcbbdbb6f89.png"},
+                {"name": "M4A4 | Jungle Tiger", "price": "7541", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_hy_v_tiger_light_large.cdf3f8e434ea36842fa520cabec812eaba3f2fa5.png"},
+                {"name": "MP9 | Hydra", "price": "1257", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_hydra_light_large.b7763a811b3bc9d19d04502fba0edc6cbe355766.png"}
+            ]
+        },
+        "red": {
+            "from": 81.91,
+            "to": 95.87,
+            "skins": [
+                {"name": "AWP | Graphite", "price": "13575", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_crumple_bravo_light_large.5f59de227d280f3c3b39fae7e49ac143338ca5b2.png"},
+                {"name": "AUG | Chameleon", "price": "418", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_chameleonaire_light_large.ad1d2f62d1481931d8e23e0ab0fbd4e7a61135f7.png"},
+                {"name": "AK-47 | Jaguar", "price": "14787", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_panther_ak47_light_large.6b7c82083b5fbb71631ad7961ac1543d1fc2a5cd.png"},
+                {"name": "FAMAS | Commemoration", "price": "1584", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_famas_gs_famas_legacy_gold_light_large.34013884c12276d1c83ceb4ea9fb83428df02920.png"},
+                {"name": "UMP-45 | Fallout Warning", "price": "7327", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_sp_nukestripe_maroon_light_large.929675f44f0303f77fdd556348294178ecf23db1.png"},
+                {"name": "PP-Bizon | Modern Hunter", "price": "14787", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_hy_hunter_modern_light_large.04891176bf0284ba4f8002c2c32445cbde50a8c6.png"},
+                {"name": "M4A4 | Daybreak", "price": "21279", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_am_kimono_sunrise_light_large.f4c4233632fed7004ab4666aeaceab53233cddd6.png"},
+                {"name": "M4A4 | Desert-Strike", "price": "617", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_titanstorm_light_large.a161ff6ea23af2d9bbdc0a757f5163fa1ad87a30.png"}
+            ]
+        },
+        "gold": {
+            "from": 95.88,
+            "to": 100.00,
+            "skins": [
+                {"name": "★ Hydra Gloves | Mangrove", "price": "21397", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/studded_hydra_gloves_bloodhound_hydra_green_leather_mesh_brass_light_large.d960afafd988b76ad2ffc2e77e306a35e01f02ca.png"},
+                {"name": "★ Specialist Gloves | Buckshot", "price": "38439", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/specialist_gloves_specialist_forest_brown_light_large.9006b6eb926c084698116f2c534c963a2f8fccec.png"},
+                {"name": "★ Falchion Knife | Tiger Tooth", "price": "22750", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_falchion_an_tiger_orange_light_large.c467ce8f738dd9bce8cd7af54610f9186dadd362.png"},
+                {"name": "★ Survival Knife | Slaughter", "price": "28199", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_canis_am_zebra_light_large.9d7f3c4d11a4306e6e7802cc7efd3cfdd3e5a157.png"},
+                {"name": "★ Sport Gloves | Arid", "price": "482600", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/sporty_gloves_sporty_military_light_large.416a571deb198035e693ca74de172ad22ad18809.png"},
+                {"name": "★ Talon Knife | Case Hardened", "price": "90940", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_widowmaker_aq_oiled_light_large.795e56b68c0c7319470b7103b093dc48f9c47311.png"}
+            ]
+        },
+        "image": "https://public.ttvu.link/cases/Buckshot.png"
+    },
+    "beast": {
+        "name": "Beast Case",
+        "cost": 1366,
+        "white": {
+            "from": 69.59,
+            "to": 85.78,
+            "skins": [
+                {"name": "Tec-9 | Toxic", "price": "578", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_tec9_hy_nuclear_skulls5_tec9_light_large.d83d7de4c10dbc5fae925a4cb531ca7a8deef3d1.png"},
+                {"name": "M4A4 | Global Offensive", "price": "1625", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_csgo_camo_light_large.9e1a644f88ce7ab73f63d5b90070b9993fcb14ac.png"}
+            ]
+        },
+        "blue": {
+            "from": 0,
+            "to": 69.58,
+            "skins": [
+                {"name": "Glock-18 | Nuclear Garden", "price": "758", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_am_nuclear_skulls_green_light_large.37c3765f928a0a002d283c0fa7f4f409f4fa9e82.png"},
+                {"name": "Dual Berettas | Demolition", "price": "960", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_elite_so_tangerine_light_large.3fd8ec1b63079a11e24d78228ad989b51a30b0ca.png"},
+                {"name": "MAC-10 | Curse", "price": "884", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mac10_cu_mac10_decay_light_large.eaddf6ddfa5975248fc134ccfc523ab11bf97070.png"},
+                {"name": "USP-S | Flashback", "price": "104", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_usp_silencer_cu_usp_flashback_light_large.47e10129af33303bac557560400c33e4fe555680.png"},
+                {"name": "P90 | Neoqueen", "price": "134", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_gs_p90_neoqueen_light_large.fa2a81f8c7906b2683b5eb4b562edd2529ad2cf0.png"},
+                {"name": "MAG-7 | BI83", "price": "173", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mag7_gs_mag7_bismuth_light_large.f5df59b5024b23a1ca187985b7650e337adda4b4.png"},
+                {"name": "CZ75-Auto | Tigris", "price": "140", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_cz75a_cu_c75a-tiger_light_large.b754b5a73c8f2b207942eb046efdbd4cade04513.png"},
+                {"name": "MP9 | Ruby Poison Dart", "price": "146", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_am_mp9_nitrogen_light_large.3a0b5a7cd31a7cfd5f0d90b9a0a1dbfcdb642cca.png"},
+                {"name": "P2000 | Handgun", "price": "406", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_hkp2000_aq_p2000_boom_light_large.39f01b0b86b795bea56300432fecfbf93415ee58.png"},
+                {"name": "SSG 08 | Fever Dream", "price": "139", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_fever_dream_light_large.cec554a86204344d6476b9071158fd02963a1aac.png"},
+                {"name": "P250 | Inferno", "price": "141", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p250_gs_p250_inferno_light_large.89b435cf4b1eab8a9fed8f7aa19228fe9421b4eb.png"},
+                {"name": "PP-Bizon | Fuel Rod", "price": "203", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bizon_cu_bizon_noxious_light_large.dc3af57fa024448b24e4ddb8838a0a339cee46ce.png"}
+            ]
+        },
+        "purple": {
+            "from": 85.79,
+            "to": 93.18,
+            "skins": [
+                {"name": "AUG | Momentum", "price": "1618", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_momentum_light_large.1f36037cec707a957785625f04b3740bb5286d16.png"},
+                {"name": "Nova | Hyper Beast", "price": "2736", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_nova_cu_nova_hyperbeast_light_large.ec64e1aa22dc78fa692a2269a99669842b91cc6f.png"},
+                {"name": "AK-47 | Frontside Misty", "price": "4865", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_winter_sport_light_large.785a08aecd996dcffc6f38373fdc73697e601a6a.png"},
+                {"name": "M4A4 | 龍王 (Dragon King)", "price": "2573", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_ancestral_light_large.cbd9732689f42b7aec91bdb9166b1ee414974cb7.png"},
+                {"name": "XM1014 | Tranquility", "price": "1767", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_xm1014_cu_xm1014_caritas_light_large.060e6378f5b5ab6fc53a2db451f3d68b8033f304.png"},
+                {"name": "SSG 08 | Big Iron", "price": "1771", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_technicality_light_large.1a057a14ca191ce12629e06217cbe86097444b03.png"},
+                {"name": "MP7 | Nemesis", "price": "943", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp7_cu_mp7_nemsis_light_large.72074e71a27827f41dc5d6f511d2f003c1b60d8a.png"},
+                {"name": "P90 | Nostalgia", "price": "915", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_p90_nostalgia_light_large.8d1cfe3582915ab9702b57e1376eb0d0ffab2331.png"},
+                {"name": "Desert Eagle | Mecha Industries", "price": "707", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_gs_deagle_mecha_light_large.e08c1fd8709f6b368956c41c68b17c15ff635635.png"},
+                {"name": "MP5-SD | Phosphor", "price": "678", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp5sd_gs_mp5_festival_drip_light_large.c71af0a784e5ecd6e5d5f2f71961be155e283cde.png"},
+                {"name": "Sawed-Off | Devourer", "price": "978", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_sawedoff_cu_sawedoff_devourer_light_large.d8365e13320f20eb532a2d5109e1fc35562bc376.png"},
+                {"name": "UMP-45 | Wild Child", "price": "1087", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ump45_cu_ump_clutch_kick_light_large.b57e43c07b433517b1c3bdaa1e52ce44878af481.png"}
+            ]
+        },
+        "red": {
+            "from": 93.19,
+            "to": 98.60,
+            "skins": [
+                {"name": "AWP | Chromatic Aberration", "price": "1760", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_chroma_pink_light_large.afc69cbf51b04e24149744b6ee1d998cc18d3002.png"},
+                {"name": "M4A4 | In Living Color", "price": "2964", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a4_love_light_large.5f7f6a3085aedc1a878dd10881144e7898a2db3d.png"},
+                {"name": "M4A1-S | Hyper Beast", "price": "11918", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_hyper_beast_light_large.31850937661935a062d5f6faf5a1f02fdb90b861.png"},
+                {"name": "AWP | Pink DDPAT", "price": "10883", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_hy_ddpat_pink_light_large.a00bebead467a7106062058982a1f8651cf663bc.png"},
+                {"name": "AK-47 | Aquamarine Revenge", "price": "7364", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_courage_alt_light_large.27e4e7d38dc2ce36ffe86bd6ec65d6f525751eaa.png"},
+                {"name": "Five-SeveN | Angry Mob", "price": "877", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_cu_five_seven_angry_light_large.54986e86178e0462d34fe78b6b726292813541f5.png"},
+                {"name": "AWP | Man-o'-war", "price": "2787", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_awp_glory_light_large.348eae0f5d4da8671886826648dd4197a9829090.png"}
+            ]
+        },
+        "gold": {
+            "from": 98.61,
+            "to": 100.00,
+            "skins": [
+                {"name": "★ Falchion Knife | Black Laminate", "price": "15083", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_falchion_gs_falchion_black_laminate_light_large.f03942bc21e426af403c2460771932675c584b44.png"},
+                {"name": "★ Bowie Knife | Freehand", "price": "14956", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_survival_bowie_am_marked_up_90_light_large.bd2b6bb2dd167a95ec825080b3d660d30bb0746b.png"}
+            ]
+        },
+        "image": "https://public.ttvu.link/cases/Beast.png"
+    },
+    "souvenir": {
+        "name": "Souvenir Case",
+        "cost": 249537,
+        "white": {
+            "from": 83.9,
+            "to": 93.26,
+            "skins": [
+                {"name": "Natus Vincere | Katowice 2014", "price": "68826", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/titan_large.c6594b1f3592efec6f5261228f9e5a90a45760a6.png"},
+                {"name": "Reason Gaming | Katowice 2014", "price": "346900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/reason_large.822d1641c31715b4021987154ff3580827566776.png"},
+                {"name": "iBUYPOWER | Katowice 2014", "price": "310300", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/ibuypower_large.1d9086aa36a7a7ca98a6d513e487eb4d6fc8bb09.png"},
+                {"name": "Titan | Katowice 2014", "price": "317900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/titan_large.c6594b1f3592efec6f5261228f9e5a90a45760a6.png"},
+                {"name": "LGB eSports | Katowice 2014", "price": "85026", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/lgb_large.6f1a226396d628e7bec9c54580c7dbac0605342f.png"}
+            ]
+        },
+        "blue": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "purple": {
+            "from": 0,
+            "to": 83.89,
+            "skins": [
+                {"name": "M4A1-S | Icarus Fell", "price": "41389", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_hy_icarus_light_large.4af0a9b1122471816242601013d478ade6a0697b.png"},
+                {"name": "Desert Eagle | Blaze", "price": "53670", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_flames_light_large.dd140c3b359c16ccd8e918ca6ad0b2628151fe1c.png"},
+                {"name": "AWP | Fade", "price": "104500", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_aa_awp_fade_light_large.4e978e13c3396c1b1e32e993afb462ccac55d783.png"},
+                {"name": "P90 | Emerald Dragon", "price": "26166", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_dragon_p90_bravo_light_large.200ef513ae29ae7651ad3f31e68b5b186279572f.png"},
+                {"name": "AK-47 | Hydroponic", "price": "164200", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_am_bamboo_jungle_light_large.98cd023e9d2207ad765b600b281352cbc5009051.png"},
+                {"name": "M4A4 | Poseidon", "price": "107200", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_poseidon_light_large.3db5688a5b47bd5720e7384abf13c45231a3cc03.png"},
+                {"name": "Desert Eagle | Fennec Fox", "price": "38380", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_gs_deagle_fennec_light_large.92dbda73edcc6eb6022f1f0248cb19063d7107aa.png"},
+                {"name": "M4A1-S | Hot Rod", "price": "70682", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_an_red_m4a1s_light_large.ec59e9b09e1e9f46af18dea65ee90e5bdfe9ebb1.png"}
+            ]
+        },
+        "red": {
+            "from": 99.66,
+            "to": 100,
+            "skins": [
+                {"name": "Glock-18 | Fade", "price": "138800", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_aa_fade_light_large.61edcc69ff252d537a4dd14b016cbe826c26ae5b.png"},
+                {"name": "MP9 | Wild Lily", "price": "191400", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_mp9_cu_mp9_island_floral_light_large.d8f6334a2905b146dd2107e592068bdb333f49cd.png"},
+                {"name": "M4A1-S | Knight", "price": "259200", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_am_metals_light_large.1ef1155c712349b2aaee8172a3da7fb1e62e1362.png"},
+                {"name": "Negev | Mjölnir", "price": "192200", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_negev_gs_negev_thor_light_large.5060a7a913b1716faf7e81e145d65e0b4081b20f.png"},
+                {"name": "AK-47 | Gold Arabesque", "price": "379800", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_gs_ak47_gold_arabesque_light_large.0d1b0b2bfcafe8d214837077367e7dd42394822e.png"},
+                {"name": "AUG | Akihabara Accept", "price": "384400", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_anime_aug_light_large.f049075c645871ee67b0b47253f59c26143efc49.png"},
+                {"name": "AK-47 | X-Ray", "price": "155900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_xray_light_large.a16215bb471dac8cc257c13dbc03e24514a7f018.png"},
+                {"name": "M4A4 | Howl", "price": "573100", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_m4a1_howling_light_large.c64a9fc9fa04b5d10d4b1e200135e59285c8a77c.png"},
+                {"name": "AK-47 | Wild Lotus", "price": "1099300", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_island_floral_light_large.1303e76d0a77ab164a46a7aba5ab1dcaf1acee6b.png"},
+                {"name": "AWP | Medusa", "price": "496000", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_medusa_awp_light_large.05c6f5c67a2fbf7d042637568ba2ab25e44bb08c.png"},
+                {"name": "AK-47 | Fire Serpent", "price": "201300", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_fireserpent_ak47_bravo_light_large.9390e7fd091ea8a0434fd2143e0acf0d5d1bbc97.png"},
+                {"name": "AWP | Dragon Lore", "price": "1138400", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_medieval_dragon_awp_light_large.cb3b8168e59e96fd33efa9578206a2aaed036fc0.png"},
+                {"name": "AWP | Desert Hydra", "price": "240500", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_gs_awp_hydra_light_large.a69be92dd5f9eef4d88b9c640f3dbf15d8c8f78c.png"},
+                {"name": "M4A1-S | Welcome to the Jungle", "price": "212900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1_snake_light_large.fcdef378938398a506d3e173e766322579867e74.png"},
+                {"name": "M4A1-S | Imminent Danger", "price": "170500", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_gs_m4a1_vertigo_light_large.a144750a6903c3bdd9808e740d274648ae26c71e.png"}
+            ]
+        },
+        "gold": {
+            "from": 93.27,
+            "to": 99.65,
+            "skins": [
+                {"name": "★ Bayonet | Gamma Doppler", "price": "85765", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bayonet_am_gamma_doppler_phase1_light_large.02bbfec15811bc1679479107af0cf5c6652e40f1.png"},
+                {"name": "★ Bowie Knife | Gamma Doppler", "price": "39947", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_survival_bowie_am_emerald_marbleized_light_large.a30b95a1a77d51fb98fd6d3907681a585a80fdc9.png"},
+                {"name": "★ Specialist Gloves | Marble Fade", "price": "360700", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/specialist_gloves_specialist_marble_fade_light_large.37eb14336eedfe6e346c46134d18ea87eea1bd0f.png"},
+                {"name": "★ Butterfly Knife | Ultraviolet", "price": "199700", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_butterfly_so_purple_light_large.116c48bf6a4a33f56d11b3204919422aa58f9337.png"},
+                {"name": "★ Sport Gloves | Nocts", "price": "180900", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/sporty_gloves_sporty_jaguar_light_large.211eda01f38938c1a6e851aa45550c94d2fcab93.png"},
+                {"name": "★ Stiletto Knife | Slaughter", "price": "48420", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_stiletto_am_zebra_light_large.1c3f0dc6443fdf2cd48cc7e8f7f8c1a3ebf20d9d.png"}
+            ]
+        },
+        "image": "https://public.ttvu.link/cases/Souvenir.png"
+    },
+    "blaze": {
+        "name": "Blaze Case",
+        "cost": 36751,
+        "white": {
+            "from": -1,
+            "to": -1,
+            "skins": []
+        },
+        "blue": {
+            "from": 80.03,
+            "to": 92.83,
+            "skins": [
+                {"name": "Glock-18 | Bullet Queen", "price": "3933", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock18_warmaiden_light_large.d99a6fdb4c1469d164182a74edba8de055726aa5.png"},
+                {"name": "Five-SeveN | Neon Kimono", "price": "22883", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_fiveseven_hy_kimono_diamonds_light_large.c82060a31b7e4b17c73eb76fd87c09037a3eba42.png"},
+                {"name": "Glock-18 | Synth Leaf", "price": "23659", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_hy_leaf_blue_light_large.1b017cc8d4594d924537f9928db4253ff628284c.png"},
+                {"name": "AUG | Midnight Lily", "price": "24088", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_am_bloom_blue_light_large.02cb11a89ee5a7f3d39fbec15757eba34691e526.png"}
+            ]
+        },
+        "purple": {
+            "from": 92.84,
+            "to": 98.10,
+            "skins": [
+                {"name": "AK-47 | Jet Set", "price": "76893", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_well_traveled_ak47_light_large.708a53ac473d7cd02037876a82b6b4c004bf9a31.png"},
+                {"name": "AK-47 | Case Hardened", "price": "34010", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_aq_oiled_light_large.92c8d125e4e54758d37e946496030e9a18833b58.png"},
+                {"name": "P90 | Emerald Dragon", "price": "25877", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_dragon_p90_bravo_light_large.200ef513ae29ae7651ad3f31e68b5b186279572f.png"},
+                {"name": "Desert Eagle | Blaze", "price": "53670", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_flames_light_large.dd140c3b359c16ccd8e918ca6ad0b2628151fe1c.png"},
+                {"name": "AWP | Lightning Strike", "price": "51163", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_lightning_awp_light_large.3761894103ee0fec90af459928635933ba27e36d.png"},
+                {"name": "AWP | Oni Taiji", "price": "44302", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_hannya_light_large.dc87e0f1aeeabe6c1c840f2a9e756ea261ef9d81.png"}
+            ]
+        },
+        "red": {
+            "from": 0,
+            "to": 80.02,
+            "skins": [
+                {"name": "AWP | Asiimov", "price": "11002", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_awp_asimov_light_large.32d9045f8a2bcd13ca18390cc9fd82026e7195ab.png"},
+                {"name": "P90 | Death by Kitty", "price": "4658", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_p90_cu_catskulls_p90_light_large.0ff2c5c53a691e28de02cd7b40e395d53d8c6826.png"},
+                {"name": "AK-47 | Neon Rider", "price": "10942", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak_neon_rider_light_large.9209192b514c4ec98146b4747dec8ce407a977c8.png"},
+                {"name": "M4A1-S | Player Two", "price": "8125", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_silencer_cu_m4a1s_csgo2048_light_large.6531225ca224416df4dc6aa12c6ecea582b1e110.png"},
+                {"name": "AK-47 | Asiimov", "price": "17597", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_asiimov_light_large.665fc3b83c8046398787a57d2ef7a9d938244820.png"}
+            ]
+        },
+        "gold": {
+            "from": 98.11,
+            "to": 100.00,
+            "skins": [
+                {"name": "AWP | Medusa", "price": "496000", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_cu_medusa_awp_light_large.05c6f5c67a2fbf7d042637568ba2ab25e44bb08c.png"},
+                {"name": "★ Ursus Knife | Doppler", "price": "43444", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_ursus_am_doppler_phase1_light_large.e1f226d384ff63baac83dfe015fc5244a8b58986.png"},
+                {"name": "★ Bayonet | Gamma Doppler", "price": "85765", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bayonet_am_gamma_doppler_phase1_light_large.02bbfec15811bc1679479107af0cf5c6652e40f1.png"},
+                {"name": "★ Skeleton Knife | Blue Steel", "price": "65795", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_skeleton_aq_blued_light_large.e306a716cec27d1640c9876d01b383374d86ef98.png"},
+                {"name": "★ Survival Knife | Fade", "price": "42143", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_canis_aa_fade_light_large.92876cf32de94fbd84b9ec16f405afa6858e61b5.png"},
+                {"name": "★ Butterfly Knife | Tiger Tooth", "price": "144800", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_butterfly_an_tiger_orange_light_large.2fece0b06a84ce2bb6e15e7cd3a37f400f218940.png"},
+                {"name": "★ Paracord Knife | Crimson Web", "price": "207000", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_cord_hy_webs_light_large.c54ef1bb727c43bd0e8774a7578e168c9e59cd70.png"},
+                {"name": "★ Karambit | Autotronic", "price": "192800", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_karambit_gs_karam_autotronic_light_large.5af6c108ce38f71f0964f1bbd06bc48c1d3e5462.png"}
+            ]
+        },
+        "image": "https://public.ttvu.link/cases/Blaze.png"
     }
 }
