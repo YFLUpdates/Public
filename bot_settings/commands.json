@@ -4,12 +4,14 @@
     "longer": 7000,
     "special": 10000
   },
-  "commands_mods": [
+  "commands": [
     {
       "name": "modules",
       "aliases": [
         "module"
       ],
+      "isModOnly": true,
+      "module_name": null,
       "cooldown": null,
       "arguments": [
         "[enable/disable/check] {moduł}",
@@ -25,6 +27,8 @@
       "aliases": [
         null
       ],
+      "isModOnly": true,
+      "module_name": null,
       "cooldown": null,
       "arguments": null,
       "description": "Pomijanie wiadomości głosowych.",
@@ -35,13 +39,37 @@
       "aliases": [
         "gw"
       ],
-      "cooldown": "longer",
+      "isModOnly": true,
+      "module_name": null,
+      "cooldown": null,
       "arguments": ["[one/multi] *{kwota}"],
       "description": "Tworzenie konkursów.",
       "disabled": []
-    }
-  ],
-  "commands": [
+    },
+    {
+      "name": "setgame",
+      "aliases": [
+        "game"
+      ],
+      "isModOnly": true,
+      "module_name": null,
+      "cooldown": null,
+      "arguments": ["[gra]"],
+      "description": "Zmiana kategorii.",
+      "disabled": []
+    },
+    {
+      "name": "settitle",
+      "aliases": [
+        "title"
+      ],
+      "isModOnly": true,
+      "module_name": null,
+      "cooldown": null,
+      "arguments": ["[tytul]"],
+      "description": "Zmiana tytułu.",
+      "disabled": []
+    },
     {
       "name": "help",
       "aliases": [
@@ -49,6 +77,7 @@
         "commands",
         "pomoc"
       ],
+      "isModOnly": false,
       "module_name": null,
       "cooldown": "classic",
       "arguments": null,
@@ -61,6 +90,7 @@
         "ver",
         "ping"
       ],
+      "isModOnly": false,
       "module_name": null,
       "cooldown": "longer",
       "arguments": null,
@@ -72,6 +102,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "opluj",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -83,6 +114,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "kogut",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -94,6 +126,7 @@
       "aliases": [
         "przytul"
       ],
+      "isModOnly": false,
       "module_name": "przytul",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -105,6 +138,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "zaprasza",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -116,6 +150,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "kamerki",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -127,6 +162,7 @@
       "aliases": [
         "calus"
       ],
+      "isModOnly": false,
       "module_name": "calus",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -138,6 +174,7 @@
       "aliases": [
         "yflwatchtime"
       ],
+      "isModOnly": false,
       "module_name": "yfl",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -149,6 +186,7 @@
       "aliases": [
         "bungeewatchtime"
       ],
+      "isModOnly": false,
       "module_name": "bungee",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -160,6 +198,7 @@
       "aliases": [
         "ewroniarz"
       ],
+      "isModOnly": false,
       "module_name": "ewron",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -171,6 +210,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "grendy",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -182,6 +222,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "resp",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -193,6 +234,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "kto",
       "cooldown": "longer",
       "arguments": null,
@@ -205,6 +247,7 @@
         "topdupeczki",
         "topsemp"
       ],
+      "isModOnly": false,
       "module_name": "ksiezniczki",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -216,6 +259,7 @@
       "aliases": [
         "semp"
       ],
+      "isModOnly": false,
       "module_name": "ileogladalkobiet",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -227,6 +271,7 @@
       "aliases": [
         "wtall"
       ],
+      "isModOnly": false,
       "module_name": "watchtimeall",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -239,6 +284,7 @@
         "twitchlogger",
         "xayopl"
       ],
+      "isModOnly": false,
       "module_name": "watchtime",
       "cooldown": "longer",
       "arguments": ["*{user} *{streamer}"],
@@ -250,6 +296,7 @@
       "aliases": [
         "watchtime2"
       ],
+      "isModOnly": false,
       "module_name": "ttvtime",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -261,6 +308,7 @@
       "aliases": [
         "top3watchtime"
       ],
+      "isModOnly": false,
       "module_name": "top3",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -272,6 +320,7 @@
       "aliases": [
         "wruc"
       ],
+      "isModOnly": false,
       "module_name": "ilejeszcze",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -285,6 +334,7 @@
         "lastseen",
         "kiedy"
       ],
+      "isModOnly": false,
       "module_name": "missing",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -297,6 +347,7 @@
         "messages",
         "wiadomosci"
       ],
+      "isModOnly": false,
       "module_name": "msgs",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -308,6 +359,7 @@
       "aliases": [
         "top5msgs"
       ],
+      "isModOnly": false,
       "module_name": "topmsgs",
       "cooldown": "classic",
       "arguments": null,
@@ -319,6 +371,7 @@
       "aliases": [
         "ilemamlat"
       ],
+      "isModOnly": false,
       "module_name": "wiek",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -330,6 +383,7 @@
       "aliases": [
         "weather"
       ],
+      "isModOnly": false,
       "module_name": "pogoda",
       "cooldown": "longer",
       "arguments": ["{miasto}"],
@@ -342,6 +396,7 @@
         "punkty",
         "yflpoints"
       ],
+      "isModOnly": false,
       "module_name": "points",
       "cooldown": "classic",
       "arguments": [
@@ -357,6 +412,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "chatters",
       "cooldown": "classic",
       "arguments": null,
@@ -368,6 +424,7 @@
       "aliases": [
         "blacklist"
       ],
+      "isModOnly": false,
       "module_name": "zjeb",
       "cooldown": "classic",
       "arguments": [
@@ -385,6 +442,7 @@
         "cocorp",
         "gangrp"
       ],
+      "isModOnly": false,
       "module_name": "fivem",
       "cooldown": "special",
       "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp]"],
@@ -396,6 +454,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "aod",
       "cooldown": "special",
       "arguments": ["[5city/cocorp/notrp/77rp/gangrp]"],
@@ -408,6 +467,7 @@
         "27",
         "27street"
       ],
+      "isModOnly": false,
       "module_name": "27st",
       "cooldown": "special",
       "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp/full]"],
@@ -420,6 +480,7 @@
         "perm",
         "perms"
       ],
+      "isModOnly": false,
       "module_name": "permy",
       "cooldown": "classic",
       "arguments": ["*{channel}"],
@@ -432,6 +493,7 @@
         "timeouts",
         "to"
       ],
+      "isModOnly": false,
       "module_name": "timeouty",
       "cooldown": "classic",
       "arguments": ["*{channel}"],
@@ -443,6 +505,7 @@
       "aliases": [
         "redeem"
       ],
+      "isModOnly": false,
       "module_name": "tiktok",
       "cooldown": "longer",
       "arguments": ["[Rose/Coffee/Koniczynka/Kiss/Szampan/Diamonds/Duck/Dice/Lean/Ziolo] {liczba}"],
@@ -454,6 +517,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "daily",
       "cooldown": "classic",
       "arguments": ["{free/premium/sub}"],
@@ -465,6 +529,7 @@
       "aliases": [
         "kosci"
       ],
+      "isModOnly": false,
       "module_name": "dice",
       "cooldown": "longer",
       "arguments": ["{kwota}"],
@@ -477,6 +542,7 @@
         "roulette",
         "ruletka"
       ],
+      "isModOnly": false,
       "module_name": "ruletka",
       "cooldown": "longer",
       "arguments": ["[red/black/green/blue/orange] {kwota}"],
@@ -490,6 +556,7 @@
         "skrzynia",
         "crate"
       ],
+      "isModOnly": false,
       "module_name": "case",
       "cooldown": "longer",
       "arguments": [
@@ -504,6 +571,7 @@
       "aliases": [
         "pojedynek"
       ],
+      "isModOnly": false,
       "module_name": "duel",
       "cooldown": "longer",
       "arguments": [
@@ -520,6 +588,7 @@
         "pln",
         "kurs"
       ],
+      "isModOnly": false,
       "module_name": "exchange",
       "cooldown": "classic",
       "arguments": ["{liczba} {waluta}"],
@@ -532,6 +601,7 @@
         "slub",
         "merry"
       ],
+      "isModOnly": false,
       "module_name": "marry",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -543,6 +613,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "love",
       "cooldown": "classic",
       "arguments": ["*{user}"],
@@ -554,6 +625,7 @@
       "aliases": [
         "playtts"
       ],
+      "isModOnly": false,
       "module_name": "tts",
       "cooldown": null,
       "arguments": ["{wiadomość}"],
@@ -567,6 +639,7 @@
         "inventory",
         "inv"
       ],
+      "isModOnly": false,
       "module_name": "inventory",
       "cooldown": "classic",
       "arguments": [
@@ -582,6 +655,7 @@
       "aliases": [
         "rajdy"
       ],
+      "isModOnly": false,
       "module_name": "raids",
       "cooldown": "classic",
       "arguments": ["*{streamer}"],
@@ -594,6 +668,7 @@
         "latestraid",
         "ostatniraid"
       ],
+      "isModOnly": false,
       "module_name": "lastraid",
       "cooldown": "classic",
       "arguments": ["*{streamer}"],
@@ -605,6 +680,7 @@
       "aliases": [
         null
       ],
+      "isModOnly": false,
       "module_name": "try",
       "cooldown": "special",
       "arguments": ["{wiadomość}"],
@@ -614,6 +690,7 @@
     {
       "name": "voteban",
       "aliases": [null],
+      "isModOnly": false,
       "module_name": "voteban",
       "cooldown": "classic",
       "arguments": ["{user}"],
@@ -625,6 +702,7 @@
       "aliases": [
         "bitka"
       ],
+      "isModOnly": false,
       "module_name": "mma",
       "cooldown": "longer",
       "arguments": ["*{user}"],
@@ -637,6 +715,7 @@
         "lowienie",
         "fish"
       ],
+      "isModOnly": false,
       "module_name": "fishing",
       "cooldown": "longer",
       "arguments": [
@@ -652,6 +731,7 @@
       "aliases": [
         "fn"
       ],
+      "isModOnly": false,
       "module_name": "fortnite",
       "cooldown": "longer",
       "arguments": ["[solo/duo/trio/squad] *{user}"],
@@ -663,6 +743,7 @@
       "aliases": [
         "elo"
       ],
+      "isModOnly": false,
       "module_name": "faceit",
       "cooldown": "longer",
       "arguments": ["*{user}"],
