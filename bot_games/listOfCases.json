@@ -695,9 +695,8 @@
         },
         "red": {
             "from": 82.23,
-            "to": 94.70,
+            "to": 98.70,
             "skins": [
-                {"name": "Desert Eagle | Blaze", "price": "53670", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_flames_light_large.dd140c3b359c16ccd8e918ca6ad0b2628151fe1c.png"},
                 {"name": "Glock-18 | Wasteland Rebel", "price": "474", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_glock_cu_glock_wasteland_rebel_light_large.284899ab35e5a29c6edb64b2af194cee19a0ed89.png"},
                 {"name": "SSG 08 | Dragonfire", "price": "1700", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ssg08_cu_ssg08_dragonfire_scope_light_large.482858c9d088454b42e53f02d927a8203c69dfc2.png"},
                 {"name": "M4A4 | X-Ray", "price": "1479", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_m4a1_cu_xray_m4_light_large.e929bb3998df4902c2bd6f6fbb775cec071558ba.png"},
@@ -714,9 +713,10 @@
             ]
         },
         "gold": {
-            "from": 94.71,
+            "from": 98.71,
             "to": 100.00,
             "skins": [
+                {"name": "Desert Eagle | Blaze", "price": "53670", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_flames_light_large.dd140c3b359c16ccd8e918ca6ad0b2628151fe1c.png"},
                 {"name": "AK-47 | Vulcan", "price": "70135", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_rubber_light_large.5836c38d3037a5a1f90ffdc8c9d0b94367ca8efd.png"},
                 {"name": "★ Navaja Knife | Blue Steel", "price": "11145", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_gypsy_jackknife_aq_blued_light_large.1ce2d4556d50d1c13ca50c65a9a68f9e943ab147.png"},
                 {"name": "★ Flip Knife | Gamma Doppler", "price": "63880", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_flip_am_gamma_doppler_phase1_light_large.7bf92c117841e553340bc5c0d0266cb458b92249.png"},
@@ -764,7 +764,7 @@
         },
         "red": {
             "from": 81.91,
-            "to": 95.87,
+            "to": 98.87,
             "skins": [
                 {"name": "AWP | Graphite", "price": "13575", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_awp_am_crumple_bravo_light_large.5f59de227d280f3c3b39fae7e49ac143338ca5b2.png"},
                 {"name": "AUG | Chameleon", "price": "418", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_aug_cu_aug_chameleonaire_light_large.ad1d2f62d1481931d8e23e0ab0fbd4e7a61135f7.png"},
@@ -777,7 +777,7 @@
             ]
         },
         "gold": {
-            "from": 95.88,
+            "from": 98.88,
             "to": 100.00,
             "skins": [
                 {"name": "★ Hydra Gloves | Mangrove", "price": "21397", "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/studded_hydra_gloves_bloodhound_hydra_green_leather_mesh_brass_light_large.d960afafd988b76ad2ffc2e77e306a35e01f02ca.png"},
