@@ -52,7 +52,7 @@
         "game"
       ],
       "isModOnly": true,
-      "module_name": null,
+      "module_name": "game",
       "cooldown": null,
       "arguments": ["[gra]"],
       "description": "Zmiana kategorii.",
@@ -64,7 +64,7 @@
         "title"
       ],
       "isModOnly": true,
-      "module_name": null,
+      "module_name": "title",
       "cooldown": null,
       "arguments": ["[tytul]"],
       "description": "Zmiana tytułu.",
