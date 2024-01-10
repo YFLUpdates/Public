@@ -749,6 +749,18 @@
       "arguments": ["*{user}"],
       "description": "Sprawdź statystyki swoje lub streamera z FACEIT",
       "disabled": []
+    },
+    {
+      "name": "subscribers",
+      "aliases": [
+        "subs"
+      ],
+      "isModOnly": false,
+      "module_name": "subscribers",
+      "cooldown": "longer",
+      "arguments": [null],
+      "description": "Pokazuje liczbe subskrybentów na czacie.",
+      "disabled": []
     }
   ]
 }
