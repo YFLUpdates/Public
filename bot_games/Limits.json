@@ -1,6 +1,6 @@
 {
-  "dice": 5000,
-  "duel": 30000,
-  "roulette": 5000,
+  "dice": 10000,
+  "duel": 1000000,
+  "roulette": 10000,
   "slots": 20000
 }
