@@ -10,7 +10,7 @@
       "aliases": [
         "module"
       ],
-      "isModOnly": true,
+      "isModOnly": "Moderator",
       "module_name": null,
       "cooldown": null,
       "arguments": [
@@ -27,7 +27,7 @@
       "aliases": [
         null
       ],
-      "isModOnly": true,
+      "isModOnly": "Moderator",
       "module_name": null,
       "cooldown": null,
       "arguments": null,
@@ -39,7 +39,7 @@
       "aliases": [
         "gw"
       ],
-      "isModOnly": true,
+      "isModOnly": "Moderator",
       "module_name": null,
       "cooldown": null,
       "arguments": ["[one/multi] *{kwota}"],
@@ -51,7 +51,7 @@
       "aliases": [
         "game"
       ],
-      "isModOnly": true,
+      "isModOnly": "Moderator",
       "module_name": "game",
       "cooldown": null,
       "arguments": ["[gra]"],
@@ -63,11 +63,23 @@
       "aliases": [
         "title"
       ],
-      "isModOnly": true,
+      "isModOnly": "Moderator",
       "module_name": "title",
       "cooldown": null,
       "arguments": ["[tytul]"],
       "description": "Zmiana tytułu.",
+      "disabled": []
+    },
+    {
+      "name": "tts",
+      "aliases": [
+        "playtts"
+      ],
+      "isModOnly": "VIP",
+      "module_name": "tts",
+      "cooldown": null,
+      "arguments": ["{wiadomość}"],
+      "description": "Wysyłanie wiadomości głosowych.",
       "disabled": []
     },
     {
@@ -621,18 +633,6 @@
       "disabled": []
     },
     {
-      "name": "tts",
-      "aliases": [
-        "playtts"
-      ],
-      "isModOnly": false,
-      "module_name": "tts",
-      "cooldown": null,
-      "arguments": ["{wiadomość}"],
-      "description": "Wysyłanie wiadomości głosowych",
-      "disabled": []
-    },
-    {
       "name": "ekwipunek",
       "aliases": [
         "eq",
@@ -747,7 +747,7 @@
       "module_name": "faceit",
       "cooldown": "longer",
       "arguments": ["*{user}"],
-      "description": "Sprawdź statystyki swoje lub streamera z FACEIT",
+      "description": "Sprawdź statystyki swoje lub streamera z FACEIT.",
       "disabled": []
     },
     {
@@ -760,6 +760,18 @@
       "cooldown": "longer",
       "arguments": [null],
       "description": "Pokazuje liczbe subskrybentów na czacie.",
+      "disabled": []
+    },
+    {
+      "name": "valorant",
+      "aliases": [
+        "valo"
+      ],
+      "isModOnly": false,
+      "module_name": "valorant",
+      "cooldown": "longer",
+      "arguments": ["*{user} *{eu/na/br/latam/kr/ap}"],
+      "description": "Sprawdź statystyki swoje lub streamera z valorant.",
       "disabled": []
     }
   ]
