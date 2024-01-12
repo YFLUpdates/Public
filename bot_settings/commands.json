@@ -20,7 +20,8 @@
         "[setplayer] {gra} {nick w grze} *{psn/xbl}"
       ],
       "description": "Wyłącza moduły bota",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "skiptts",
@@ -32,7 +33,8 @@
       "cooldown": null,
       "arguments": null,
       "description": "Pomijanie wiadomości głosowych.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "giveaway",
@@ -44,7 +46,8 @@
       "cooldown": null,
       "arguments": ["[one/multi] *{kwota}"],
       "description": "Tworzenie konkursów.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "setgame",
@@ -56,7 +59,8 @@
       "cooldown": null,
       "arguments": ["[gra]"],
       "description": "Zmiana kategorii.",
-      "disabled": []
+      "disabled": [],
+      "isNew": true
     },
     {
       "name": "settitle",
@@ -68,7 +72,8 @@
       "cooldown": null,
       "arguments": ["[tytul]"],
       "description": "Zmiana tytułu.",
-      "disabled": []
+      "disabled": [],
+      "isNew": true
     },
     {
       "name": "tts",
@@ -80,7 +85,8 @@
       "cooldown": null,
       "arguments": ["{wiadomość}"],
       "description": "Wysyłanie wiadomości głosowych.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "help",
@@ -94,7 +100,8 @@
       "cooldown": "classic",
       "arguments": null,
       "description": "Podaje kilka komend i linka do strony ze wszystkimi.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "version",
@@ -107,7 +114,8 @@
       "cooldown": "longer",
       "arguments": null,
       "description": "Sprawdź czy bot załadował się na kanał.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "opluj",
@@ -119,7 +127,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Pluje na losową osobę z chatu.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "kogut",
@@ -131,7 +140,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Opierdala koguta losowej osobie na chacie.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "hug",
@@ -143,7 +153,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Przytula podaną osobę.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "zaprasza",
@@ -155,7 +166,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Zaproś kogoś na kamerki.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "kamerki",
@@ -167,7 +179,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Kto z kim siedzi na kamerkach.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "kiss",
@@ -179,7 +192,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Całuje randomową, bądź podaną osobę.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "yfl",
@@ -191,7 +205,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sprawdza czy ktoś jest widzem YFL.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "bungee",
@@ -203,7 +218,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sprawdza czy ktoś jest widzem Bungee.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "ewron",
@@ -215,7 +231,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sprawdza czy ktoś jest widzem ewrona (HOPAKI).",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "grendy",
@@ -227,7 +244,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sprawdza czy ktoś jest widzem grendiego.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "resp",
@@ -239,7 +257,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sprawdza czy ktoś jest z respa.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "kto",
@@ -251,7 +270,8 @@
       "cooldown": "longer",
       "arguments": null,
       "description": "Pokazuje kto z listy znanych osobistości twitchowych jest na kanale.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "ksiezniczki",
@@ -264,7 +284,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Pokazuje top3 streamerki, które ktoś oglądał po watchtimie (min 1h).",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "ileogladalkobiet",
@@ -276,7 +297,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Pokazuje ile ktoś oglądał polskie streamerki od 26 lipca.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "watchtimeall",
@@ -288,7 +310,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sumuje watchtime na wszystkich polskich kanałach od 26 lipca (dane z xayo.pl).",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "watchtime",
@@ -301,7 +324,8 @@
       "cooldown": "longer",
       "arguments": ["*{user} *{streamer}"],
       "description": "Pokazuje ile czasu spędził widz na streamie/kanałach.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "ttvtime",
@@ -313,7 +337,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Pokazuje ile czasu spędził widz na streamie/kanałach.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "top3",
@@ -325,7 +350,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Pokazuje top 3 kanały według watchtime.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "ilejeszcze",
@@ -337,7 +363,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sprawdza, kiedy kończy się wykluczenie.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "missing",
@@ -351,7 +378,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Kiedy ostatnio był widziany user na kanale.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "msgs",
@@ -364,7 +392,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Ilość wiadomości i miejsce w topce.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "topmsgs",
@@ -376,7 +405,8 @@
       "cooldown": "classic",
       "arguments": null,
       "description": "Pokazuje top 5 osób.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "wiek",
@@ -388,7 +418,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Zgaduje wiek na podstawie daty zalozenia konta, liczb w nicku i oglądanych kanałów.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "pogoda",
@@ -400,7 +431,8 @@
       "cooldown": "longer",
       "arguments": ["{miasto}"],
       "description": "Pokazuje jaka pogoda jest w danym mieście.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "points",
@@ -417,7 +449,8 @@
         "send {user} {kwota}"
       ],
       "description": "Pokazuje liczbe punktów oraz pozwala zrobić transfer punktów.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "chatters",
@@ -429,7 +462,8 @@
       "cooldown": "classic",
       "arguments": null,
       "description": "Pokazuje aktualną liczbę chattersów.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "zjeb",
@@ -444,7 +478,8 @@
         "[mark/unmark] {nick}"
       ],
       "description": "Sprawdź czy ktoś został zarejestrowany jako zjeb lub zarejestruj go.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "fivem",
@@ -459,7 +494,8 @@
       "cooldown": "special",
       "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp]"],
       "description": "Sprawdza ile osób jest na danym serwerze FiveM.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "aod",
@@ -471,7 +507,8 @@
       "cooldown": "special",
       "arguments": ["[5city/cocorp/notrp/77rp/gangrp]"],
       "description": "Sprawdza kto z AOD jest na danym serwerze.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "27st",
@@ -484,7 +521,8 @@
       "cooldown": "special",
       "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp/full]"],
       "description": "Sprawdza kto z 27street jest na danym serwerze",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "permy",
@@ -497,7 +535,8 @@
       "cooldown": "classic",
       "arguments": ["*{channel}"],
       "description": "Sprawdź ile osób dostało dzisiaj perma.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "timeouty",
@@ -510,7 +549,8 @@
       "cooldown": "classic",
       "arguments": ["*{channel}"],
       "description": "Sprawdź ile osób dostało dzisiaj timeouta.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "tiktok",
@@ -522,7 +562,8 @@
       "cooldown": "longer",
       "arguments": ["[Rose/Coffee/Koniczynka/Kiss/Szampan/Diamonds/Duck/Dice/Lean/Ziolo] {liczba}"],
       "description": "Wysyłaj różyczki i inne ikony z tiktoka na overlay streamera.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "daily",
@@ -534,7 +575,8 @@
       "cooldown": "classic",
       "arguments": ["{free/premium/sub}"],
       "description": "Odbieraj codziennie dodatkowe punkty.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "dice",
@@ -546,7 +588,8 @@
       "cooldown": "longer",
       "arguments": ["{kwota}"],
       "description": "Rzuć kostkami o punkty.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "gamble",
@@ -559,7 +602,8 @@
       "cooldown": "longer",
       "arguments": ["[red/black/green/blue/orange] {kwota}"],
       "description": "Postaw na kolor który wyleci.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "case",
@@ -576,7 +620,8 @@
         "[chance/info] {snake/nightmare/riptide/cobble/huntsman/chall14/legend14}"
       ],
       "description": "Otwieranie skrzynek.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "duel",
@@ -591,7 +636,8 @@
         "list"
       ],
       "description": "Zaproś na pojedynek o punkty.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "exchange",
@@ -605,7 +651,8 @@
       "cooldown": "classic",
       "arguments": ["{liczba} {waluta}"],
       "description": "Przeliczarka pieniędzy na złotówki",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "marry",
@@ -618,7 +665,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Kiedy będzie ślub z user.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "love",
@@ -630,7 +678,8 @@
       "cooldown": "classic",
       "arguments": ["*{user}"],
       "description": "Sprawdza, jak bardzo kochasz osobę.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "ekwipunek",
@@ -648,7 +697,8 @@
         "trade {user} {id}"
       ],
       "description": "Pokazuje co udało Ci się zdobyć oraz pozwala sprzedać itemy.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "raids",
@@ -660,7 +710,8 @@
       "cooldown": "classic",
       "arguments": ["*{streamer}"],
       "description": "Pokazuje ile rajdów dostał dzisiaj kanał.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "lastraid",
@@ -673,7 +724,8 @@
       "cooldown": "classic",
       "arguments": ["*{streamer}"],
       "description": "Pokazuje kiedy był ostatni rajd, z jaką liczbą osób oraz od kogo.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "try",
@@ -685,7 +737,8 @@
       "cooldown": "special",
       "arguments": ["{wiadomość}"],
       "description": "Naśladuje Try z serwera fivecity.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "voteban",
@@ -695,7 +748,8 @@
       "cooldown": "classic",
       "arguments": ["{user}"],
       "description": "Rozpocznij głosowanie na timeouta za punkty.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "mma",
@@ -707,7 +761,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Bije się z randomową, bądź podaną osobą.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "fishing",
@@ -724,7 +779,8 @@
         "info"
       ],
       "description": "Jesteś pasjonatem ryb? Chcesz sobie połowić? Droga wolna kup karnet, wędke i baw się z nami.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "fortnite",
@@ -736,7 +792,8 @@
       "cooldown": "longer",
       "arguments": ["[solo/duo/trio/squad] *{user}"],
       "description": "Sprawdź statystyki swoje lub streamer w fortnite.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "faceit",
@@ -748,7 +805,8 @@
       "cooldown": "longer",
       "arguments": ["*{user}"],
       "description": "Sprawdź statystyki swoje lub streamera z FACEIT.",
-      "disabled": []
+      "disabled": [],
+      "isNew": null
     },
     {
       "name": "subscribers",
@@ -760,7 +818,8 @@
       "cooldown": "longer",
       "arguments": [null],
       "description": "Pokazuje liczbe subskrybentów na czacie.",
-      "disabled": []
+      "disabled": [],
+      "isNew": true
     },
     {
       "name": "valorant",
@@ -772,7 +831,8 @@
       "cooldown": "longer",
       "arguments": ["*{user} *{eu/na/br/latam/kr/ap}"],
       "description": "Sprawdź statystyki swoje lub streamera z valorant.",
-      "disabled": []
+      "disabled": [],
+      "isNew": true
     }
   ]
 }
