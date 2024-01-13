@@ -1,11 +1,11 @@
 {
     "cs": "\"Counter-Strike\"",
-    "lol": "League of Legends",
-    "mc": "Minecraft",
+    "lol": "\"League of Legends\"",
+    "mc": "\"Minecraft\"",
     "gta": "\"Grand Theft Auto V\"",
     "gtav": "\"Grand Theft Auto V\"",
-    "jc": "Just Chatting",
-    "fn": "Fortnite",
+    "jc": "\"Just Chatting\"",
+    "fn": "\"Fortnite\"",
     "R6": "\"Tom Clancy's Rainbow Six Siege\"",
     "rdr2": "\"Red Dead Redemption 2\"",
     "bf1": "\"Battlefield 1\"",
@@ -15,9 +15,10 @@
     "bfv": "\"Battlefield V\"",
     "bf2042": "\"Battlefield 2042\"",
     "ets2": "\"Euro Truck Simulator 2\"",
-    "ats": "American Truck Simulator",
-    "wz": "Call of Duty: Warzone",
+    "ats": "\"American Truck Simulator\"",
+    "wz": "\"Call of Duty: Warzone\"",
     "wot": "\"World of Tanks\"",
-    "wow": "World of Warcraft",
-    "irl": "Travel & Outdoors"
+    "wow": "\"World of Warcraft\"",
+    "irl": "\"Travel & Outdoors\"",
+    "tft": "\"Teamfight Tactics\""
 }
