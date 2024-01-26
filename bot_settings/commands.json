@@ -107,7 +107,8 @@
       "aliases": [
         "komendy",
         "commands",
-        "pomoc"
+        "pomoc",
+        "cmds"
       ],
       "isModOnly": false,
       "module_name": "commands",
