@@ -121,7 +121,7 @@
       "name": "register",
       "aliases": [],
       "isModOnly": false,
-      "module_name": "commands",
+      "module_name": "register",
       "cooldown": "classic",
       "arguments": null,
       "description": "Rejestruje użytkownika na danym kanale.",
