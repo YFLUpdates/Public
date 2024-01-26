@@ -89,21 +89,6 @@
       "isNew": null
     },
     {
-      "name": "help",
-      "aliases": [
-        "komendy",
-        "commands",
-        "pomoc"
-      ],
-      "isModOnly": false,
-      "module_name": null,
-      "cooldown": "classic",
-      "arguments": null,
-      "description": "Podaje kilka komend i linka do strony ze wszystkimi.",
-      "disabled": [],
-      "isNew": null
-    },
-    {
       "name": "version",
       "aliases": [
         "ver",
@@ -116,6 +101,32 @@
       "description": "Sprawdź czy bot załadował się na kanał.",
       "disabled": [],
       "isNew": null
+    },
+    {
+      "name": "help",
+      "aliases": [
+        "komendy",
+        "commands",
+        "pomoc"
+      ],
+      "isModOnly": false,
+      "module_name": "commands",
+      "cooldown": "classic",
+      "arguments": null,
+      "description": "Podaje kilka komend i linka do strony ze wszystkimi.",
+      "disabled": [],
+      "isNew": null
+    },
+    {
+      "name": "register",
+      "aliases": [],
+      "isModOnly": false,
+      "module_name": "commands",
+      "cooldown": "classic",
+      "arguments": null,
+      "description": "Rejestruje użytkownika na danym kanale.",
+      "disabled": [],
+      "isNew": true
     },
     {
       "name": "opluj",
