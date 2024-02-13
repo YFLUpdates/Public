@@ -350,7 +350,7 @@
     },
     "chall14": {
         "name": "Pretendenci EMS Katowice 2014",
-        "cost": 158856,
+        "cost": 173756,
         "white": {
             "from": -1,
             "to": -1,
@@ -400,7 +400,7 @@
     },
     "legend14": {
         "name": "Legendy EMS Katowice 2014",
-        "cost": 176049,
+        "cost": 199549,
         "white": {
             "from": -1,
             "to": -1,
@@ -526,7 +526,7 @@
     },
     "dream": {
         "name": "Dream Case",
-        "cost": 265985,
+        "cost": 234066,
         "white": {
             "from": -1,
             "to": -1,
@@ -588,7 +588,7 @@
     },
     "stalker": {
         "name": "Stalker Case",
-        "cost": 5014,
+        "cost": 4763,
         "white": {
             "from": -1,
             "to": -1,
@@ -648,7 +648,7 @@
     },
     "vulcan": {
         "name": "Vulcan Case",
-        "cost": 7397,
+        "cost": 7175,
         "white": {
             "from": -1,
             "to": -1,
@@ -704,7 +704,7 @@
     },
     "buckshot": {
         "name": "Buckshot Case",
-        "cost": 6324,
+        "cost": 5059,
         "white": {
             "from": -1,
             "to": -1,
@@ -833,7 +833,7 @@
     },
     "souvenir": {
         "name": "Souvenir Case",
-        "cost": 249537,
+        "cost": 237060,
         "white": {
             "from": 83.9,
             "to": 93.26,
@@ -895,7 +895,7 @@
     },
     "blaze": {
         "name": "Blaze Case",
-        "cost": 36751,
+        "cost": 34178,
         "white": {
             "from": -1,
             "to": -1,
