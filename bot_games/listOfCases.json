@@ -388,7 +388,7 @@
             "from": 73.46,
             "to": 100,
             "skins": [
-                {"name": "Wilk ESL (foliowana) | Katowice 2014", "min_price": 0, "max_price": 54415, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/wolf_esl_foil_large.49d7d28f6a286dad51fa2667ad53c70cd60198dd.png"}
+                {"name": "Wilk ESL (foliowana) | Katowice 2014", "min_price": 54415, "max_price": 54415, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/wolf_esl_foil_large.49d7d28f6a286dad51fa2667ad53c70cd60198dd.png"}
             ]
         },
         "gold": {
@@ -438,7 +438,7 @@
             "from": 73.46,
             "to": 100,
             "skins": [
-                {"name": "Czaszka ESL (foliowana) | Katowice 2014", "min_price": 0, "max_price": 49336, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/wolf_skull_esl_foil_large.b356051007f82cc22b250e1bef8c62e026755e55.png"}
+                {"name": "Czaszka ESL (foliowana) | Katowice 2014", "min_price": 49336, "max_price": 49336, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/stickers/emskatowice2014/wolf_skull_esl_foil_large.b356051007f82cc22b250e1bef8c62e026755e55.png"}
             ]
         },
         "gold": {
@@ -696,7 +696,7 @@
             "skins": [
                 {"name": "Desert Eagle | Blaze", "min_price": 33204, "max_price": 61142, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_deagle_aa_flames_light_large.dd140c3b359c16ccd8e918ca6ad0b2628151fe1c.png"},
                 {"name": "AK-47 | Vulcan", "min_price": 7298, "max_price": 67712, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_ak47_cu_ak47_rubber_light_large.5836c38d3037a5a1f90ffdc8c9d0b94367ca8efd.png"},
-                {"name": "★ Navaja Knife | Blue Steel", "min_price": 0, "max_price": 11276, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_gypsy_jackknife_aq_blued_light_large.1ce2d4556d50d1c13ca50c65a9a68f9e943ab147.png"},
+                {"name": "★ Navaja Knife | Blue Steel", "min_price": 8008, "max_price": 11276, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_gypsy_jackknife_aq_blued_light_large.1ce2d4556d50d1c13ca50c65a9a68f9e943ab147.png"},
                 {"name": "★ Bayonet | Slaughter", "min_price": 32743, "max_price": 57210, "image": "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bayonet_am_zebra_light_large.2234064362204e87ea5ce3f997dc691d844d9168.png"}
             ]
         },
