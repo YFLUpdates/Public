@@ -845,6 +845,19 @@
       "description": "Sprawdź statystyki swoje lub streamera z valorant.",
       "disabled": [],
       "isNew": true
+    },
+    {
+      "name": "hunt",
+      "aliases": [
+        null
+      ],
+      "isModOnly": false,
+      "module_name": "hunt",
+      "cooldown": "classic",
+      "arguments": ["*{escape}"],
+      "description": "Rozpocznij na kogoś polowanie o timeouta.",
+      "disabled": [],
+      "isNew": true
     }
   ]
 }
