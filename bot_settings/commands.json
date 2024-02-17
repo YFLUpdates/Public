@@ -857,7 +857,8 @@
       "arguments": ["*{escape/run}"],
       "description": "Rozpocznij na kogoś polowanie o timeouta.",
       "disabled": [],
-      "isNew": true
+      "isNew": true,
+      "earlyAccess": true
     }
   ]
 }
