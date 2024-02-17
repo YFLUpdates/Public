@@ -849,12 +849,12 @@
     {
       "name": "hunt",
       "aliases": [
-        null
+        "polowanie"
       ],
       "isModOnly": false,
       "module_name": "hunt",
-      "cooldown": "classic",
-      "arguments": ["*{escape}"],
+      "cooldown": "longer",
+      "arguments": ["*{escape/run}"],
       "description": "Rozpocznij na kogoś polowanie o timeouta.",
       "disabled": [],
       "isNew": true
