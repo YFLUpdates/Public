@@ -758,6 +758,18 @@
       "disabled": [],
       "isNew": true,
       "earlyAccess": true
+    },
+    {
+      "name": "kwiatuszek",
+      "aliases": ["kwiatek"],
+      "isModOnly": false,
+      "module_name": "kwiatuszek",
+      "cooldown": "classic",
+      "arguments": ["*{user}"],
+      "description": "Możesz podarować komuś kwiatuszek.",
+      "disabled": [],
+      "isNew": true,
+      "earlyAccess": null
     }
   ]
 }
