@@ -770,6 +770,18 @@
       "disabled": [],
       "isNew": true,
       "earlyAccess": null
-    }
+    },
+    {
+      "name": "lol",
+      "aliases": ["liga"],
+      "isModOnly": false,
+      "module_name": "lol",
+      "cooldown": "longer",
+      "arguments": ["*{user} *{kr/br1/eun1/euw1/jp1/la1/la2/na1/oc1/ph2/ru/sg2/th2/tr1/tw2/vn2}"],
+      "description": "Sprawdź statystyki swoje lub streamera z league of legends.",
+      "disabled": [],
+      "isNew": true,
+      "earlyAccess": null
+    },
   ]
 }
