@@ -4,5 +4,5 @@
   "roulette": 10000,
   "slots": 20000,
   "coinflip": 20000,
-  "coinflip_stacking": 20000
+  "coinflip_stacking": 200000
 }
