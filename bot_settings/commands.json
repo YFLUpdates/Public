@@ -757,7 +757,7 @@
       "description": "Rozpocznij na kogoś polowanie o timeouta.",
       "disabled": [],
       "isNew": true,
-      "earlyAccess": true
+      "earlyAccess": null
     },
     {
       "name": "kwiatuszek",
