@@ -3,5 +3,5 @@
   "duel": 1000000,
   "roulette": 10000,
   "slots": 20000,
-  "coinflip": 500000
+  "coinflip": 20000
 }
