@@ -782,6 +782,18 @@
       "disabled": [],
       "isNew": true,
       "earlyAccess": null
+    },
+    {
+      "name": "coinflip",
+      "aliases": ["cf", "flip"],
+      "isModOnly": false,
+      "module_name": "coinflip",
+      "cooldown": "longer",
+      "arguments": ["{orzel/reszka/switch} {kwota}"],
+      "description": "Rzuć monetą",
+      "disabled": [],
+      "isNew": true,
+      "earlyAccess": true
     }
   ]
 }
