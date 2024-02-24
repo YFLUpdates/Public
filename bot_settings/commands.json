@@ -725,7 +725,7 @@
     },
     {
       "name": "subscribers",
-      "aliases": ["subs"],
+      "aliases": ["subs", "suby"],
       "isModOnly": false,
       "module_name": "subscribers",
       "cooldown": "longer",
