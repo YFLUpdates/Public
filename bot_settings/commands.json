@@ -789,7 +789,7 @@
       "isModOnly": false,
       "module_name": "coinflip",
       "cooldown": "longer",
-      "arguments": ["{orzel/reszka/switch} {kwota}"],
+      "arguments": ["[orzel/reszka] {kwota}", "switch"],
       "description": "Rzuć monetą",
       "disabled": [],
       "isNew": true,
