@@ -455,30 +455,6 @@
       "earlyAccess": null
     },
     {
-      "name": "aod",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "aod",
-      "cooldown": "special",
-      "arguments": ["[5city/cocorp/notrp/77rp/gangrp]"],
-      "description": "Sprawdza kto z AOD jest na danym serwerze.",
-      "disabled": [],
-      "isNew": null,
-      "earlyAccess": null
-    },
-    {
-      "name": "27st",
-      "aliases": ["27", "27street"],
-      "isModOnly": false,
-      "module_name": "27st",
-      "cooldown": "special",
-      "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp/full]"],
-      "description": "Sprawdza kto z 27street jest na danym serwerze",
-      "disabled": [],
-      "isNew": null,
-      "earlyAccess": null
-    },
-    {
       "name": "permy",
       "aliases": ["perm", "perms"],
       "isModOnly": false,
@@ -575,18 +551,6 @@
       "cooldown": "longer",
       "arguments": ["{user} {kwota}", "list"],
       "description": "Zaproś na pojedynek o punkty.",
-      "disabled": [],
-      "isNew": null,
-      "earlyAccess": null
-    },
-    {
-      "name": "exchange",
-      "aliases": ["rechange", "pln", "kurs"],
-      "isModOnly": false,
-      "module_name": "exchange",
-      "cooldown": "classic",
-      "arguments": ["{liczba} {waluta}"],
-      "description": "Przeliczarka pieniędzy na złotówki",
       "disabled": [],
       "isNew": null,
       "earlyAccess": null
