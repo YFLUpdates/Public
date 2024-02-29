@@ -758,6 +758,18 @@
       "disabled": [],
       "isNew": true,
       "earlyAccess": "2024-03-02T00:00:34.000Z"
+    },
+    {
+      "name": "hypixel",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "hypixel",
+      "cooldown": "longer",
+      "arguments": ["[bedwars] *{user}"],
+      "description": "Sprawdź statystyki swoje lub streamer na serwerze Hypixel.",
+      "disabled": [],
+      "isNew": true,
+      "earlyAccess": "2024-03-072T00:00:34.000Z"
     }
   ]
 }
