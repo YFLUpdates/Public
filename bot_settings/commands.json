@@ -38,7 +38,7 @@
 			"name": "giveaway",
 			"aliases": ["gw"],
 			"isModOnly": "Moderator",
-			"module_name": "gw",
+			"module_name": null,
 			"cooldown": null,
 			"arguments": ["[one/multi] *{kwota}"],
 			"description": "Losowanie punktów między użytkownikami kanału.",
