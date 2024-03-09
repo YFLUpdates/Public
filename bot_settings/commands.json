@@ -38,10 +38,10 @@
 			"name": "giveaway",
 			"aliases": ["gw"],
 			"isModOnly": "Moderator",
-			"module_name": null,
+			"module_name": "gw",
 			"cooldown": null,
 			"arguments": ["[one/multi] *{kwota}"],
-			"description": "Tworzenie konkursów.",
+			"description": "Losowanie punktów między użytkownikami kanału.",
 			"disabled": [],
 			"isNew": null,
 			"earlyAccess": null
