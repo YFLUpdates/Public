@@ -456,7 +456,7 @@
 		},
 		{
 			"name": "permy",
-			"aliases": ["perm", "perms"],
+			"aliases": ["perms", "bany", "bans"],
 			"isModOnly": false,
 			"module_name": "permy",
 			"cooldown": "classic",
