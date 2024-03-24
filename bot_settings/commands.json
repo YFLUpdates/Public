@@ -835,6 +835,45 @@
       "isNew": "2024-03-14T00:00:34.000Z",
       "earlyAccess": "2024-03-07T00:00:34.000Z",
 	    "isDiscord": null
+    },
+    {
+      "name": "konfi",
+      "aliases": ["60"],
+      "isModOnly": false,
+      "module_name": "konfi",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprwadź czy możesz zaufać kumplowi.",
+      "disabled": [],
+      "isNew": "2024-04-01T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "partia",
+      "aliases": ["polityka", "zakim"],
+      "isModOnly": false,
+      "module_name": "partia",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdź za jaką partią polityczną jest twój ziomal.",
+      "disabled": [],
+      "isNew": "2024-04-01T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "iq",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "iq",
+      "cooldown": "longer",
+      "arguments": ["*{user}"],
+      "description": "Sprawdź jak mądry jesteś.",
+      "disabled": [],
+      "isNew": "2024-04-01T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
     }
   ]
 }
