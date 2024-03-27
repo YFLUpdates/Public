@@ -467,7 +467,7 @@
     },
     {
       "name": "zjeb",
-      "aliases": ["blacklist"],
+      "aliases": ["blacklist", "debil", "idiota"],
       "isModOnly": false,
       "module_name": "zjeb",
       "cooldown": "classic",
