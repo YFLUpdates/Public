@@ -285,7 +285,7 @@
     },
     {
       "name": "ksiezniczki",
-      "aliases": ["topdupeczki", "topsemp"],
+      "aliases": ["topdupeczki"],
       "isModOnly": false,
       "module_name": "ksiezniczki",
       "cooldown": "longer",
@@ -298,7 +298,7 @@
     },
     {
       "name": "ileogladalkobiet",
-      "aliases": ["semp"],
+      "aliases": [null],
       "isModOnly": false,
       "module_name": "ileogladalkobiet",
       "cooldown": "longer",
