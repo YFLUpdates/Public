@@ -1,4 +1,8 @@
 {
+    "cases": {
+        classic: ['nightmare', 'riptide', 'snake', 'huntsman', 'cobble', 'legend14', 'chall14'],
+	    premium: ['agent', 'dream', 'stalker', 'vulcan', 'buckshot', 'beast', 'souvenir', 'blaze']
+    },
     "snake": {
         "name": "Skrzynia Ukąszenia Węża",
         "cost": 2520,
