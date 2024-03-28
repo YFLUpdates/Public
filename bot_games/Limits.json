@@ -4,5 +4,9 @@
   "roulette": 15000,
   "slots": 20000,
   "coinflip": 100000,
-  "coinflip_stacking": 20000
+  "coinflip_stacking": 20000,
+  "gw_one": 2000,
+  "gw_one_max": 50000,
+  "gw_multi": 10000,
+  "gw_multi_max": 50000
 }
