@@ -602,7 +602,7 @@
     },
     {
       "name": "marry",
-      "aliases": ["slub", "merry"],
+      "aliases": ["slub"],
       "isModOnly": false,
       "module_name": "marry",
       "cooldown": "classic",
