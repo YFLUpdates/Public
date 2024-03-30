@@ -562,7 +562,7 @@
       "name": "gamble",
       "aliases": ["roulette"],
       "isModOnly": false,
-      "module_name": "gamble",
+      "module_name": "roulette",
       "cooldown": "longer",
       "arguments": ["[red/black/green/blue/orange] {kwota}"],
       "description": "Postaw na kolor który wyleci.",
