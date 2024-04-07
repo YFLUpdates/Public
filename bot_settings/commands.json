@@ -879,12 +879,12 @@
       "name": "semp",
       "aliases": [null],
       "isModOnly": false,
-      "module_name": "issemp",
+      "module_name": "semp",
       "cooldown": "classic",
       "arguments": ["*{user}", "[mark/unmark] {nick}"],
       "description": "Sprawdź czy ktoś został zarejestrowany jako semp lub zarejestruj go.",
       "disabled": [],
-      "isNew": "2024-04-15T00:00:34.000Z",
+      "isNew": "2024-04-22T00:00:34.000Z",
       "earlyAccess": "2024-04-15T00:00:34.000Z",
       "isDiscord": null
     },
@@ -897,7 +897,7 @@
       "arguments": ["*{user}"],
       "description": "Walcz z kimś na życie i śmierć o timeouta.",
       "disabled": [],
-      "isNew": "2024-04-15T00:00:34.000Z",
+      "isNew": "2024-04-22T00:00:34.000Z",
       "earlyAccess": "2024-04-15T00:00:34.000Z",
       "isDiscord": null
     },
@@ -910,7 +910,7 @@
       "arguments": ["*{user1} *{user2} *{user3}"],
       "description": "Zagraj w: Fuck, Marry, Kill",
       "disabled": [],
-      "isNew": "2024-04-15T00:00:34.000Z",
+      "isNew": "2024-04-22T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     }
