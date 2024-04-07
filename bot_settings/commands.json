@@ -894,7 +894,7 @@
       "isModOnly": false,
       "module_name": "rosyjska",
       "cooldown": "longer",
-      "arguments": ["*{user}"],
+      "arguments": ["{user}"],
       "description": "Walcz z kimś na życie i śmierć o timeouta.",
       "disabled": [],
       "isNew": "2024-04-22T00:00:34.000Z",
