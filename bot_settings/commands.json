@@ -856,7 +856,7 @@
       "module_name": "partia",
       "cooldown": "longer",
       "arguments": ["*{user}"],
-      "description": "Sprawdź za jaką partią polityczną jest Ty, bądź Twój ziomal.",
+      "description": "Sprawdź za jaką partią polityczną jesteś Ty, bądź Twój ziomal.",
       "disabled": [],
       "isNew": "2024-04-08T00:00:34.000Z",
       "earlyAccess": null,
