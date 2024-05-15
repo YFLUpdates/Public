@@ -207,7 +207,7 @@
     },
     {
       "name": "yfl",
-      "aliases": [""],
+      "aliases": [],
       "isModOnly": false,
       "module_name": "yfl",
       "cooldown": "longer",
@@ -220,7 +220,7 @@
     },
     {
       "name": "bungee",
-      "aliases": [""],
+      "aliases": [],
       "isModOnly": false,
       "module_name": "bungee",
       "cooldown": "longer",
