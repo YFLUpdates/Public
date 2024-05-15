@@ -207,7 +207,7 @@
     },
     {
       "name": "yfl",
-      "aliases": ["yflwatchtime"],
+      "aliases": [""],
       "isModOnly": false,
       "module_name": "yfl",
       "cooldown": "longer",
@@ -220,7 +220,7 @@
     },
     {
       "name": "bungee",
-      "aliases": ["bungeewatchtime"],
+      "aliases": [""],
       "isModOnly": false,
       "module_name": "bungee",
       "cooldown": "longer",
@@ -310,38 +310,12 @@
       "isDiscord": null
     },
     {
-      "name": "watchtimeall",
-      "aliases": ["wtall"],
-      "isModOnly": false,
-      "module_name": "watchtimeall",
-      "cooldown": "longer",
-      "arguments": ["*{user}"],
-      "description": "Sumuje watchtime na wszystkich polskich kanałach od 26 lipca (dane z xayo.pl).",
-      "disabled": [],
-      "isNew": null,
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
-      "name": "watchtime",
-      "aliases": ["twitchlogger", "xayopl"],
-      "isModOnly": false,
-      "module_name": "watchtime",
-      "cooldown": "longer",
-      "arguments": ["*{user} *{streamer}"],
-      "description": "Pokazuje ile czasu spędził widz na streamie/kanałach.",
-      "disabled": [],
-      "isNew": null,
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
       "name": "ttvtime",
-      "aliases": ["watchtime2"],
+      "aliases": ["wt", "watchtime"],
       "isModOnly": false,
       "module_name": "ttvtime",
       "cooldown": "longer",
-      "arguments": ["*{user}"],
+      "arguments": ["*{user} {channel}"],
       "description": "Pokazuje ile czasu spędził widz na streamie/kanałach.",
       "disabled": [],
       "isNew": null,
