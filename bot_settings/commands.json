@@ -324,7 +324,7 @@
     },
     {
       "name": "top3",
-      "aliases": ["top3watchtime"],
+      "aliases": [],
       "isModOnly": false,
       "module_name": "top3",
       "cooldown": "classic",
