@@ -798,19 +798,6 @@
 	    "isDiscord": null
     },
     {
-      "name": "hypixel",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "hypixel",
-      "cooldown": "special",
-      "arguments": ["[bedwars] *{user}"],
-      "description": "Sprawdź statystyki swoje lub streamer na serwerze Hypixel.",
-      "disabled": [],
-      "isNew": "2024-03-14T00:00:34.000Z",
-      "earlyAccess": "2024-03-07T00:00:34.000Z",
-	    "isDiscord": null
-    },
-    {
       "name": "konfi",
       "aliases": ["60"],
       "isModOnly": false,
