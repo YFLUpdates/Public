@@ -884,7 +884,7 @@
       "arguments": ["*{user}"],
       "description": "Sprawdź średnie statystyki swoje lub streamera z FACEIT.",
       "disabled": [],
-      "isNew": "2024-06-17T00:00:34:000Z",
+      "isNew": "2024-06-17T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     }
