@@ -1,6 +1,6 @@
 {
     "cases": {
-        "classic": ["nightmare", "riptide", "snake", "huntsman", "cobble", "legend14", "chall14"],
+        "classic": ["nightmare", "riptide", "snake", "huntsman", "kilowatt", "cobble", "legend14", "chall14"],
         "premium": ["agent", "dream", "stalker", "vulcan", "buckshot", "beast", "souvenir", "blaze"],
         "chances": {
             "snake": "⬜ [55.23%], 🟦 [25.44%], 🟪 [10.69%], 🟥 [7.3%], 🟨 [1.34%]",
