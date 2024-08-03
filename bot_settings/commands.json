@@ -15,7 +15,7 @@
         "[enable/disable/check] {moduł}",
         "[list/clearduels/refreshoverlay]",
         "[timer] {czas w minutach}",
-        "[setplayer] {gra} {nick w grze} *{psn/xbl}"
+        "[setplayer] {gra} {nick} {platforma/serwer}"
       ],
       "description": "Wyłącza moduły bota",
       "disabled": [],
