@@ -890,7 +890,7 @@
     },
     {
       "name": "tft",
-      "aliases": null,
+      "aliases": [null],
       "isModOnly": false,
       "module_name": "tft",
       "cooldown": "longer",
