@@ -15,7 +15,7 @@
         "[enable/disable/check] {moduł}",
         "[list/clearduels/refreshoverlay]",
         "[timer] {czas w minutach}",
-        "[setplayer] {gra: ["lol": "test"]} {nick} {platforma/serwer}"
+        "[setplayer] {gra: ['lol': 'test']} {nick} {platforma/serwer}"
       ],
       "description": "Wyłącza moduły bota",
       "disabled": [],
