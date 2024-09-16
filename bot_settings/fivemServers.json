@@ -6,19 +6,19 @@
 			"aliases": ["5city", "fivecity"]
 		},
 		{
-			"name": "5City Eest",
+			"name": "5City East",
 			"id": "jgeala",
-			"aliases": ["5citye", "east"]
+			"aliases": ["east", "5citye"]
 		},
 		{
 			"name": "5City West",
 			"id": "gzrylm",
-			"aliases": ["5cityw", "west"]
+			"aliases": ["west", "5cityw"]
 		},
 		{
 			"name": "77RP",
 			"id": "py7bq7",
-			"aliases": ["77", "77rp"]
+			"aliases": ["77rp", "77"]
 		},
 		{
 			"name": "ExumaRP",
