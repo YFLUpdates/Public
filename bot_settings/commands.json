@@ -79,7 +79,7 @@
       "name": "tts",
       "aliases": ["playtts"],
       "isModOnly": "VIP",
-      "module_name": "tts",
+      "module_name": "tts_messages",
       "cooldown": null,
       "arguments": ["{wiadomość}"],
       "description": "Wysyłanie wiadomości głosowych.",
