@@ -454,11 +454,11 @@
     },
     {
       "name": "fivem",
-      "aliases": ["5city", "notrp", "cocorp", "gangrp"],
+      "aliases": [null],
       "isModOnly": false,
       "module_name": "fivem",
       "cooldown": "longer",
-      "arguments": ["[5city/west/east/cocorp/notrp/77rp/gangrp/hoodstories]"],
+      "arguments": [null],
       "description": "Sprawdza ile osób jest na danym serwerze FiveM.",
       "disabled": [],
       "isNew": null,
@@ -900,6 +900,81 @@
       "description": "Sprawdź statystyki swoje lub streamera z teamfight tactics.",
       "disabled": [],
       "isNew": "2024-08-21T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "apex",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "apex",
+      "cooldown": "longer",
+      "arguments": [
+        "*{user} [pc/ps4/xbl/switch]"
+      ],
+      "description": "Sprawdź statystyki swoje lub streamera z apex legends.",
+      "disabled": [],
+      "isNew": "2024-11-24T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "slap",
+      "aliases": ["lisc"],
+      "isModOnly": false,
+      "module_name": "slap",
+      "cooldown": "classic",
+      "arguments": [
+        "*{user}"
+      ],
+      "description": "Możesz podarować komuś sprzedać liścia.",
+      "disabled": [],
+      "isNew": "2024-11-24T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "accountage",
+      "aliases": ["accage"],
+      "isModOnly": false,
+      "module_name": "accountage",
+      "cooldown": "longer",
+      "arguments": [
+        "*{user}"
+      ],
+      "description": "Możesz sprawdzić, kiedy Ty lub ktoś inny założył konto.",
+      "disabled": [],
+      "isNew": "2024-11-24T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "followage",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "followage",
+      "cooldown": "longer",
+      "arguments": [
+        "*{user}"
+      ],
+      "description": "Możesz sprawdzić ile Ty lub ktoś inny obserwuje streamera.",
+      "disabled": [],
+      "isNew": "2024-11-24T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "uptime",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "uptime",
+      "cooldown": "longer",
+      "arguments": [
+        null
+      ],
+      "description": "Sprawdź jak długo streamer nadaje już na żywo.",
+      "disabled": [],
+      "isNew": "2024-11-24T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     }
