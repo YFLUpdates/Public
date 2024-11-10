@@ -969,9 +969,7 @@
       "isModOnly": false,
       "module_name": "uptime",
       "cooldown": "longer",
-      "arguments": [
-        null
-      ],
+      "arguments": null,
       "description": "Sprawdź jak długo streamer nadaje już na żywo.",
       "disabled": [],
       "isNew": "2024-11-24T00:00:34.000Z",
