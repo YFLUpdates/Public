@@ -955,7 +955,7 @@
       "module_name": "followage",
       "cooldown": "longer",
       "arguments": [
-        "*{user}"
+        "*{user} *{streamer}"
       ],
       "description": "Możesz sprawdzić ile Ty lub ktoś inny obserwuje streamera.",
       "disabled": [],
