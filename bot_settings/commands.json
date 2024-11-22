@@ -2,7 +2,7 @@
   "cooldowns": {
     "classic": 1000,
     "longer": 3000,
-    "special": 7000
+    "special": 5000
   },
   "commands": [
     {
@@ -709,7 +709,7 @@
       "aliases": ["elo"],
       "isModOnly": false,
       "module_name": "faceit",
-      "cooldown": "longer",
+      "cooldown": "special",
       "arguments": ["*{user}"],
       "description": "Sprawdź statystyki swoje lub streamera z FACEIT.",
       "disabled": [],
@@ -880,7 +880,7 @@
       "aliases": ["stats"],
       "isModOnly": false,
       "module_name": "avg",
-      "cooldown": "longer",
+      "cooldown": "special",
       "arguments": ["*{user}"],
       "description": "Sprawdź średnie statystyki swoje lub streamera z FACEIT.",
       "disabled": [],
