@@ -723,7 +723,7 @@
       "isModOnly": false,
       "module_name": "subscribers",
       "cooldown": "classic",
-      "arguments": [null],
+      "arguments": null,
       "description": "Pokazuje liczbe subskrybentów na czacie.",
       "disabled": [],
       "isNew": null,
