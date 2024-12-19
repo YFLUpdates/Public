@@ -6,6 +6,7 @@
   "slots": 20000,
   "coinflip": 100000,
   "coinflip_stacking": 20000,
+  "gamble": 100000,
   "gw_one": 2000,
   "gw_one_max": 50000,
   "gw_multi": 10000,
