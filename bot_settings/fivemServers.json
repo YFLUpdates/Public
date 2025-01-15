@@ -22,28 +22,18 @@
 		},
 		{
 			"name": "ExumaRP",
-			"id": "pygzmm",
+			"id": "77g9ya",
 			"aliases": ["exumarp", "exuma"]
 		},
 		{
 			"name": "CocoRP",
-			"id": "j6lvy4",
+			"id": "67qga6",
 			"aliases": ["cocorp", "coco"]
 		},
 		{
-			"name": "AtlantisRP",
-			"id": "4xdj7q",
-			"aliases": ["atlantis", "atlantisrp"]
-		},
-		{
-			"name": "NotRP",
-			"id": "jqbq8m",
-			"aliases": ["notrp", "nrp"]
-		},
-		{
-			"name": "InfamesRP",
+			"name": "Infames Polska",
 			"id": "mmpazd",
-			"aliases": ["infamesrp", "infames"]
+			"aliases": ["infames"]
 		},
 		{
 			"name": "Hood Stories",
@@ -56,11 +46,22 @@
 			"name": "LuckyValley",
 			"id": "g9rdyo",
 			"aliases": ["luckyvalley", "lv"]
-		},
-		{
-			"name": "High Noon",
-			"id": "m94qoq",
-			"aliases": ["highnoon", "hn"]
 		}
-	]
+	],
+	"disabled": {
+		"fiveM": [
+			{
+				"name": "AtlantisRP",
+				"id": "4xdj7q",
+				"aliases": ["atlantis", "atlantisrp"]
+			}
+		],
+		"redM": [
+			{
+				"name": "High Noon",
+				"id": "m94qoq",
+				"aliases": ["highnoon", "hn"]
+			}
+		]
+	}
 }
