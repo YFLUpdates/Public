@@ -1,21 +1,6 @@
 {
 	"fivemServers": [
 		{
-			"name": "5City",
-			"id": "vp4rxq",
-			"aliases": ["5city", "fivecity"]
-		},
-		{
-			"name": "5City East",
-			"id": "jgeala",
-			"aliases": ["east", "5citye"]
-		},
-		{
-			"name": "5City West",
-			"id": "gzrylm",
-			"aliases": ["west", "5cityw"]
-		},
-		{
 			"name": "77RP",
 			"id": "py7bq7",
 			"aliases": ["77rp", "77"]
@@ -54,6 +39,21 @@
 				"name": "AtlantisRP",
 				"id": "4xdj7q",
 				"aliases": ["atlantis", "atlantisrp"]
+			},
+			{
+				"name": "5City",
+				"id": "vp4rxq",
+				"aliases": ["5city", "fivecity"]
+			},
+			{
+				"name": "5City East",
+				"id": "jgeala",
+				"aliases": ["east", "5citye"]
+			},
+			{
+				"name": "5City West",
+				"id": "gzrylm",
+				"aliases": ["west", "5cityw"]
 			}
 		],
 		"redM": [
