@@ -11,19 +11,14 @@
 			"aliases": ["exumarp", "exuma"]
 		},
 		{
-			"name": "CocoRP",
-			"id": "67qga6",
-			"aliases": ["cocorp", "coco"]
-		},
-		{
-			"name": "Infames Polska",
-			"id": "mmpazd",
-			"aliases": ["infames"]
-		},
-		{
 			"name": "Hood Stories",
 			"id": "eblxmb",
 			"aliases": ["hoodstories", "hs"]
+		},
+		{
+			"name": "Project NYX",
+			"id": "xx9mo5",
+			"aliases": ["nyx"]
 		}
 	],
 	"redmServers": [
@@ -32,36 +27,5 @@
 			"id": "g9rdyo",
 			"aliases": ["luckyvalley", "lv"]
 		}
-	],
-	"disabled": {
-		"fiveM": [
-			{
-				"name": "AtlantisRP",
-				"id": "4xdj7q",
-				"aliases": ["atlantis", "atlantisrp"]
-			},
-			{
-				"name": "5City",
-				"id": "vp4rxq",
-				"aliases": ["5city", "fivecity"]
-			},
-			{
-				"name": "5City East",
-				"id": "jgeala",
-				"aliases": ["east", "5citye"]
-			},
-			{
-				"name": "5City West",
-				"id": "gzrylm",
-				"aliases": ["west", "5cityw"]
-			}
-		],
-		"redM": [
-			{
-				"name": "High Noon",
-				"id": "m94qoq",
-				"aliases": ["highnoon", "hn"]
-			}
-		]
-	}
+	]
 }
