@@ -24,6 +24,22 @@
       "isDiscord": null
     },
     {
+      "name": "command",
+      "aliases": ["cmd"],
+      "isModOnly": "Moderator",
+      "module_name": "command",
+      "cooldown": null,
+      "arguments": [
+        "[add/edit] [nazwa] [zawartość]",
+        "[remove/show] [nazwa]"
+      ],
+      "description": "Możliwość tworzenia/edytowania/usuwania własnych komend.",
+      "disabled": [],
+      "isNew": null,
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
       "name": "skiptts",
       "aliases": [null],
       "isModOnly": "Moderator",
