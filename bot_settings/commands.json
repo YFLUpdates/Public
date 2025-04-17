@@ -31,9 +31,10 @@
       "cooldown": null,
       "arguments": [
         "[add/edit] [nazwa] [zawartość]",
-        "[remove/show] [nazwa]"
+        "[remove/show] [nazwa]",
+        "alias [add/remove] [nazwa] [alias]"
       ],
-      "description": "Możliwość tworzenia/edytowania/usuwania własnych komend.",
+      "description": "Możliwość tworzenia własnych komend.",
       "disabled": [],
       "isNew": null,
       "earlyAccess": null,
