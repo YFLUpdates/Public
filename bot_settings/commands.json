@@ -712,19 +712,6 @@
       "isDiscord": null
     },
     {
-      "name": "partia",
-      "aliases": ["polityka", "zakim"],
-      "isModOnly": false,
-      "module_name": "partia",
-      "cooldown": "classic",
-      "arguments": ["*{user}"],
-      "description": "Sprawdź za jaką partią polityczną jesteś Ty, bądź Twój ziomal.",
-      "disabled": [],
-      "isNew": "2024-04-08T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
       "name": "iq",
       "aliases": [null],
       "isModOnly": false,
