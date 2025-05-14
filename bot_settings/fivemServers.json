@@ -7,18 +7,8 @@
 		},
 		{
 			"name": "ExumaRP",
-			"id": "77g9ya",
+			"id": "3vjyzb",
 			"aliases": ["exumarp", "exuma"]
-		},
-		{
-			"name": "Hood Stories",
-			"id": "eblxmb",
-			"aliases": ["hoodstories", "hs"]
-		},
-		{
-			"name": "5City",
-			"id": "ak94b5",
-			"aliases": ["5city", "fivecity"]
 		}
 	],
 	"redmServers": [
