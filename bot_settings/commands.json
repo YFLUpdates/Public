@@ -32,11 +32,12 @@
       "arguments": [
         "[add/edit] [nazwa] [zawartość]",
         "[remove/show] [nazwa]",
-        "alias [add/remove] [nazwa] [alias]"
+        "alias [add/remove] [nazwa] [alias]",
+        "options [cd]"
       ],
       "description": "Możliwość tworzenia własnych komend.",
       "disabled": [],
-      "isNew": null,
+      "isNew": "2025-05-29T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     },
@@ -141,6 +142,19 @@
       "description": "Rejestruje użytkownika na danym kanale.",
       "disabled": [],
       "isNew": null,
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "settings",
+      "aliases": ["ustawienia"],
+      "isModOnly": false,
+      "module_name": "settings",
+      "cooldown": "classic",
+      "arguments": null,
+      "description": "Sprawdź ustawienia, jakie streamer ustawił dla danej gry.",
+      "disabled": [],
+      "isNew": "2025-05-29T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     },
@@ -362,6 +376,19 @@
       "description": "Sprawdza ile osób jest na danym serwerze FiveM.",
       "disabled": [],
       "isNew": null,
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "redm",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "redm",
+      "cooldown": "longer",
+      "arguments": null,
+      "description": "Sprawdza ile osób jest na danym serwerze RedM.",
+      "disabled": [],
+      "isNew": "2025-05-29T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     },
@@ -619,15 +646,41 @@
       "isDiscord": null
     },
     {
-      "name": "subscribers",
-      "aliases": ["subs", "suby"],
+      "name": "last20",
+      "aliases": ["avg"],
       "isModOnly": false,
-      "module_name": "subscribers",
-      "cooldown": "classic",
-      "arguments": null,
-      "description": "Pokazuje liczbe subskrybentów na czacie.",
+      "module_name": "last20",
+      "cooldown": "longer",
+      "arguments": ["*{nick}"],
+      "description": "Sprawdź statystyki z ostatnich 20 meczów swoich lub streamera z FACEIT.",
       "disabled": [],
-      "isNew": null,
+      "isNew": "2025-05-29T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "last",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "last",
+      "cooldown": "longer",
+      "arguments": ["*{nick}"],
+      "description": "Sprawdź statystyki swojego ostatniego meczu lub streamera na FACEIT.",
+      "disabled": [],
+      "isNew": "2025-05-29T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "compare",
+      "aliases": ["porownaj"],
+      "isModOnly": false,
+      "module_name": "compare",
+      "cooldown": "special",
+      "arguments": ["[nick1] [nick2]"],
+      "description": "Porównuje statystyki dwóch osób z FACEIT.",
+      "disabled": [],
+      "isNew": "2025-05-29T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     },
@@ -639,6 +692,64 @@
       "cooldown": "longer",
       "arguments": ["*[nick] *[eu/na/br/latam/kr/ap]"],
       "description": "Sprawdź statystyki swoje lub streamera z valorant.",
+      "disabled": [],
+      "isNew": null,
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "tft",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "tft",
+      "cooldown": "longer",
+      "arguments": [
+        "*[nick] [kr/br/eune/euw/jp/lan/las/na/oce/ph/ru/sg/th/tr/tw/vn]"
+      ],
+      "description": "Sprawdź statystyki swoje lub streamera z teamfight tactics.",
+      "disabled": [],
+      "isNew": "2024-08-21T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "apex",
+      "aliases": [null],
+      "isModOnly": false,
+      "module_name": "apex",
+      "cooldown": "longer",
+      "arguments": [
+        "*[user] [pc/ps4/xbl/switch]"
+      ],
+      "description": "Sprawdź statystyki swoje lub streamera z apex legends.",
+      "disabled": [],
+      "isNew": "2024-11-24T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "lol",
+      "aliases": ["liga"],
+      "isModOnly": false,
+      "module_name": "lol",
+      "cooldown": "longer",
+      "arguments": [
+        "*[nick] [kr/br/eune/euw/jp/lan/las/na/oce/ph/ru/sg/th/tr/tw/vn]"
+      ],
+      "description": "Sprawdź statystyki swoje lub streamera z league of legends.",
+      "disabled": [],
+      "isNew": "2024-03-07T00:00:34.000Z",
+      "earlyAccess": null,
+      "isDiscord": null
+    },
+    {
+      "name": "subscribers",
+      "aliases": ["subs", "suby"],
+      "isModOnly": false,
+      "module_name": "subscribers",
+      "cooldown": "classic",
+      "arguments": null,
+      "description": "Pokazuje liczbe subskrybentów na czacie.",
       "disabled": [],
       "isNew": null,
       "earlyAccess": null,
@@ -667,21 +778,6 @@
       "description": "Możesz podarować komuś kwiatuszek.",
       "disabled": [],
       "isNew": null,
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
-      "name": "lol",
-      "aliases": ["liga"],
-      "isModOnly": false,
-      "module_name": "lol",
-      "cooldown": "longer",
-      "arguments": [
-        "*[nick] [kr/br/eune/euw/jp/lan/las/na/oce/ph/ru/sg/th/tr/tw/vn]"
-      ],
-      "description": "Sprawdź statystyki swoje lub streamera z league of legends.",
-      "disabled": [],
-      "isNew": "2024-03-07T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     },
@@ -764,36 +860,6 @@
       "isDiscord": null
     },
     {
-      "name": "tft",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "tft",
-      "cooldown": "longer",
-      "arguments": [
-        "*[nick] [kr/br/eune/euw/jp/lan/las/na/oce/ph/ru/sg/th/tr/tw/vn]"
-      ],
-      "description": "Sprawdź statystyki swoje lub streamera z teamfight tactics.",
-      "disabled": [],
-      "isNew": "2024-08-21T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
-      "name": "apex",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "apex",
-      "cooldown": "longer",
-      "arguments": [
-        "*[user] [pc/ps4/xbl/switch]"
-      ],
-      "description": "Sprawdź statystyki swoje lub streamera z apex legends.",
-      "disabled": [],
-      "isNew": "2024-11-24T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
       "name": "slap",
       "aliases": ["lisc"],
       "isModOnly": false,
@@ -853,58 +919,6 @@
       "isDiscord": null
     },
     {
-      "name": "last20",
-      "aliases": ["avg"],
-      "isModOnly": false,
-      "module_name": "uptime",
-      "cooldown": "longer",
-      "arguments": ["*{nick}"],
-      "description": "Sprawdź statystyki z ostatnich 20 meczów swoich lub streamera z FACEIT.",
-      "disabled": [],
-      "isNew": "2024-11-24T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
-      "name": "last",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "last",
-      "cooldown": "longer",
-      "arguments": ["*{nick}"],
-      "description": "Sprawdź statystyki swojego ostatniego meczu lub streamera na FACEIT.",
-      "disabled": [],
-      "isNew": "2024-11-24T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
-      "name": "redm",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "redm",
-      "cooldown": "longer",
-      "arguments": null,
-      "description": "Sprawdza ile osób jest na danym serwerze RedM.",
-      "disabled": [],
-      "isNew": "2024-11-24T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
-      "name": "settings",
-      "aliases": ["ustawienia"],
-      "isModOnly": false,
-      "module_name": "settings",
-      "cooldown": "classic",
-      "arguments": null,
-      "description": "Sprawdź ustawienia, jakie streamer ustawił dla danej gry.",
-      "disabled": [],
-      "isNew": "2024-11-24T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
       "name": "gamble",
       "aliases": [null],
       "isModOnly": false,
@@ -913,7 +927,7 @@
       "arguments": null,
       "description": "Zaryzykuj swoje punkty.",
       "disabled": [],
-      "isNew": "2024-11-24T00:00:34.000Z",
+      "isNew": "2025-05-29T00:00:34.000Z",
       "earlyAccess": null,
       "isDiscord": null
     }
