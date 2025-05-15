@@ -372,7 +372,7 @@
       "isModOnly": false,
       "module_name": "fivem",
       "cooldown": "longer",
-      "arguments": [null],
+      "arguments": null,
       "description": "Sprawdza ile osób jest na danym serwerze FiveM.",
       "disabled": [],
       "isNew": null,
