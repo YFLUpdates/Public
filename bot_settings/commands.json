@@ -255,7 +255,7 @@
       "isModOnly": false,
       "module_name": "ttvtime",
       "cooldown": "longer",
-      "arguments": ["*[user] *[channel]", "*[me/@me] *{channel}"],
+      "arguments": ["*[user] *[channel]", "*[me/@me] *[channel]"],
       "description": "Pokazuje ile czasu spędził widz na streamie/kanałach.",
       "disabled": [],
       "isNew": null,
