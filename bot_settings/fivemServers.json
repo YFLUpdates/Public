@@ -9,6 +9,11 @@
 			"name": "ExumaRP",
 			"id": "3vjyzb",
 			"aliases": ["exumarp", "exuma"]
+		},
+		{
+			"name": "Project NYX",
+			"id": "xx9mo5",
+			"aliases": ["nyx"]
 		}
 	],
 	"redmServers": [
