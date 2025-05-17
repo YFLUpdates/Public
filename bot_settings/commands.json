@@ -333,7 +333,7 @@
       "isModOnly": false,
       "module_name": "points",
       "cooldown": "longer",
-      "arguments": ["*[user]", "ranking", "send [user] [kwota]"],
+      "arguments": ["*[user]", "ranking", "send [user] [kwota]", "[add/remove/set] [user] [kwota]"],
       "description": "Pokazuje liczbe punktów oraz pozwala zrobić transfer punktów.",
       "disabled": [],
       "isNew": null,
