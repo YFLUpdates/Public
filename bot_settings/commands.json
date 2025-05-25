@@ -33,7 +33,7 @@
         "[add/edit] [nazwa] [zawartość]",
         "[remove/show] [nazwa]",
         "alias [add/remove] [nazwa] [alias]",
-        "options [cd]"
+        "options [cd/level]"
       ],
       "description": "Możliwość tworzenia własnych komend.",
       "disabled": [],
