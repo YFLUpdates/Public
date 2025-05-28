@@ -33,7 +33,6 @@
         "[add/edit] [nazwa] [zawartość]",
         "[remove/show] [nazwa]",
         "alias [add/remove] [nazwa] [alias]",
-        "options [cd]"
         "options [nazwa] [cd/level/type/enable/disable]"
       ],
       "description": "Możliwość tworzenia własnych komend.",
@@ -651,7 +650,7 @@
       "isModOnly": false,
       "module_name": "last20",
       "cooldown": "longer",
-      "arguments": ["*[nick]"],
+      "arguments": ["*[#30]", "*[nick] *[#30]"],
       "description": "Sprawdź statystyki z ostatnich 20 meczów swoich lub streamera z FACEIT.",
       "disabled": [],
       "isNew": "2025-05-29T00:00:34.000Z",
@@ -677,7 +676,7 @@
       "isModOnly": false,
       "module_name": "compare",
       "cooldown": "special",
-      "arguments": ["[nick1] [nick2]"],
+      "arguments": ["[nick1] [nick2] *[#30]"],
       "description": "Porównuje statystyki dwóch osób z FACEIT.",
       "disabled": [],
       "isNew": "2025-05-29T00:00:34.000Z",
