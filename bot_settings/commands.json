@@ -34,6 +34,7 @@
         "[remove/show] [nazwa]",
         "alias [add/remove] [nazwa] [alias]",
         "options [cd]"
+        "options [nazwa] [cd/level/type/enable/disable]"
       ],
       "description": "Możliwość tworzenia własnych komend.",
       "disabled": [],
