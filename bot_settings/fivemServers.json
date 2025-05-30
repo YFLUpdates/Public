@@ -7,14 +7,20 @@
 		},
 		{
 			"name": "ExumaRP",
-			"id": "3vjyzb",
+			"id": "ovpyvy",
 			"aliases": ["exumarp", "exuma"]
 		},
 		{
 			"name": "Project NYX",
 			"id": "xx9mo5",
 			"aliases": ["nyx"]
-		}
+		},
+		{
+			"name": "RevGG",
+			"id": "48qoro",
+			"aliases": ["revgg", "rev"]
+		},
+	
 	],
 	"redmServers": [
 		{
