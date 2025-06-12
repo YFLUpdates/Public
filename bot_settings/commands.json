@@ -367,32 +367,6 @@
       "isDiscord": null
     },
     {
-      "name": "fivem",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "fivem",
-      "cooldown": "longer",
-      "arguments": null,
-      "description": "Sprawdza ile osób jest na danym serwerze FiveM.",
-      "disabled": [],
-      "isNew": null,
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
-      "name": "redm",
-      "aliases": [null],
-      "isModOnly": false,
-      "module_name": "redm",
-      "cooldown": "longer",
-      "arguments": null,
-      "description": "Sprawdza ile osób jest na danym serwerze RedM.",
-      "disabled": [],
-      "isNew": "2025-05-29T00:00:34.000Z",
-      "earlyAccess": null,
-      "isDiscord": null
-    },
-    {
       "name": "permy",
       "aliases": ["perms", "bany", "bans"],
       "isModOnly": false,
