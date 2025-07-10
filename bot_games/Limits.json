@@ -10,5 +10,6 @@
   "gw_one": 2000,
   "gw_one_max": 50000,
   "gw_multi": 10000,
-  "gw_multi_max": 50000
+  "gw_multi_max": 50000,
+  "blackjack": 100000
 }
