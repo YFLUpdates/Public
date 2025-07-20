@@ -3,7 +3,6 @@
   "dice": 25000,
   "duel": 1000000,
   "roulette": 15000,
-  "slots": 20000,
   "coinflip": 100000,
   "coinflip_stacking": 20000,
   "gamble": 100000,
