@@ -11,5 +11,6 @@
   "gw_one_max": 50000,
   "gw_multi": 10000,
   "gw_multi_max": 50000,
-  "blackjack": 100000
+  "blackjack": 150000,
+  "slots": 150000
 }
